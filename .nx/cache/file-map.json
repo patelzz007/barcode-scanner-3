@@ -1,0 +1,6175 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.2.8",
+  "deps": {
+    "@angular/animations": "^17.1.2",
+    "@angular/common": "^17.1.2",
+    "@angular/compiler": "^17.1.2",
+    "@angular/core": "^17.1.2",
+    "@angular/forms": "^17.1.2",
+    "@angular/platform-browser": "^17.1.2",
+    "@angular/platform-browser-dynamic": "^17.1.2",
+    "@angular/router": "^17.1.2",
+    "@capacitor/android": "^5.6.0",
+    "@capacitor/app": "5.0.7",
+    "@capacitor/core": "5.6.0",
+    "@capacitor/haptics": "5.0.7",
+    "@capacitor/ios": "^5.6.0",
+    "@capacitor/keyboard": "5.0.8",
+    "@capacitor/status-bar": "5.0.7",
+    "@ionic/angular": "^7.7.0",
+    "@ngneat/until-destroy": "^10.0.0",
+    "install": "^0.13.0",
+    "ionicons": "^7.2.2",
+    "ngx-scanner-qrcode": "^1.6.8",
+    "npm": "^10.4.0",
+    "rxjs": "~7.8.1",
+    "tslib": "^2.6.2",
+    "zone.js": "~0.14.3",
+    "@angular-devkit/build-angular": "^17.1.2",
+    "@angular-eslint/builder": "^17.2.1",
+    "@angular-eslint/eslint-plugin": "^17.2.1",
+    "@angular-eslint/eslint-plugin-template": "^17.2.1",
+    "@angular-eslint/schematics": "^17.2.1",
+    "@angular-eslint/template-parser": "^17.2.1",
+    "@angular/cli": "^17.1.2",
+    "@angular/compiler-cli": "^17.1.2",
+    "@angular/language-service": "^17.1.2",
+    "@capacitor/cli": "5.6.0",
+    "@ionic/angular-toolkit": "^11.0.1",
+    "@types/jasmine": "~5.1.4",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-jsdoc": "48.0.6",
+    "eslint-plugin-prefer-arrow": "1.2.3",
+    "jasmine-core": "~5.1.1",
+    "jasmine-spec-reporter": "~7.0.0",
+    "karma": "~6.4.2",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.1",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.3.3"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".browserslistrc",
+        "hash": "7979060078399394427"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "6686520031028425313"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18210278994710539225"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "17731570938719403455"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "592272277800690021"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "1151538777131426085"
+      },
+      {
+        "file": "android/.gitignore",
+        "hash": "16088808965373471785"
+      },
+      {
+        "file": "android/app/.gitignore",
+        "hash": "3800628318224317187"
+      },
+      {
+        "file": "android/app/build.gradle",
+        "hash": "12135773219438944864"
+      },
+      {
+        "file": "android/app/capacitor.build.gradle",
+        "hash": "321577693221425197"
+      },
+      {
+        "file": "android/app/proguard-rules.pro",
+        "hash": "16319704539319765030"
+      },
+      {
+        "file": "android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+        "hash": "1280125089554780403"
+      },
+      {
+        "file": "android/app/src/main/AndroidManifest.xml",
+        "hash": "3523479855145780248"
+      },
+      {
+        "file": "android/app/src/main/java/io/barcode/basf/MainActivity.java",
+        "hash": "4862849246517100342"
+      },
+      {
+        "file": "android/app/src/main/res/drawable-land-hdpi/splash.png",
+        "hash": "12618218220193540786"
+      },
+      {
+        "file": "android/app/src/main/res/drawable-land-mdpi/splash.png",
+        "hash": "13354102016025079206"
+      },
+      {
+        "file": "android/app/src/main/res/drawable-land-xhdpi/splash.png",
+        "hash": "16928120350772912315"
+      },
+      {
+        "file": "android/app/src/main/res/drawable-land-xxhdpi/splash.png",
+        "hash": "8114284271146720243"
+      },
+      {
+        "file": "android/app/src/main/res/drawable-land-xxxhdpi/splash.png",
+        "hash": "10648225290896133372"
+      },
+      {
+        "file": "android/app/src/main/res/drawable-port-hdpi/splash.png",
+        "hash": "7870574596552345396"
+      },
+      {
+        "file": "android/app/src/main/res/drawable-port-mdpi/splash.png",
+        "hash": "512985810174291431"
+      },
+      {
+        "file": "android/app/src/main/res/drawable-port-xhdpi/splash.png",
+        "hash": "13168839858812363171"
+      },
+      {
+        "file": "android/app/src/main/res/drawable-port-xxhdpi/splash.png",
+        "hash": "1546567578093946022"
+      },
+      {
+        "file": "android/app/src/main/res/drawable-port-xxxhdpi/splash.png",
+        "hash": "7224188242308859997"
+      },
+      {
+        "file": "android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml",
+        "hash": "16602625396055746895"
+      },
+      {
+        "file": "android/app/src/main/res/drawable/ic_launcher_background.xml",
+        "hash": "4055909962711590499"
+      },
+      {
+        "file": "android/app/src/main/res/drawable/splash.png",
+        "hash": "13354102016025079206"
+      },
+      {
+        "file": "android/app/src/main/res/layout/activity_main.xml",
+        "hash": "13540211242698942768"
+      },
+      {
+        "file": "android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+        "hash": "16176709064596667284"
+      },
+      {
+        "file": "android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+        "hash": "16176709064596667284"
+      },
+      {
+        "file": "android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+        "hash": "10700838889768688031"
+      },
+      {
+        "file": "android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+        "hash": "15163013499175324231"
+      },
+      {
+        "file": "android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+        "hash": "17762064175266230691"
+      },
+      {
+        "file": "android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+        "hash": "9342129704159603628"
+      },
+      {
+        "file": "android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
+        "hash": "4133705743351324192"
+      },
+      {
+        "file": "android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+        "hash": "9039760806353812177"
+      },
+      {
+        "file": "android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+        "hash": "15127275078370164788"
+      },
+      {
+        "file": "android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
+        "hash": "6222172872530160361"
+      },
+      {
+        "file": "android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+        "hash": "16696879462706858720"
+      },
+      {
+        "file": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+        "hash": "5466540626246768150"
+      },
+      {
+        "file": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+        "hash": "6321943060948364586"
+      },
+      {
+        "file": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+        "hash": "14088589834205738071"
+      },
+      {
+        "file": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+        "hash": "18428292913404649045"
+      },
+      {
+        "file": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+        "hash": "11484431673195189447"
+      },
+      {
+        "file": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+        "hash": "1772322197088498798"
+      },
+      {
+        "file": "android/app/src/main/res/values/ic_launcher_background.xml",
+        "hash": "9482601953118464086"
+      },
+      {
+        "file": "android/app/src/main/res/values/strings.xml",
+        "hash": "8783035194329485717"
+      },
+      {
+        "file": "android/app/src/main/res/values/styles.xml",
+        "hash": "17918612613785874663"
+      },
+      {
+        "file": "android/app/src/main/res/xml/file_paths.xml",
+        "hash": "14753087816109454837"
+      },
+      {
+        "file": "android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java",
+        "hash": "11856600006954306230"
+      },
+      {
+        "file": "android/build.gradle",
+        "hash": "15247024166514751308"
+      },
+      {
+        "file": "android/capacitor.settings.gradle",
+        "hash": "14622451423594914531"
+      },
+      {
+        "file": "android/gradle.properties",
+        "hash": "2024862945433011340"
+      },
+      {
+        "file": "android/gradle/wrapper/gradle-wrapper.jar",
+        "hash": "13643854122011606232"
+      },
+      {
+        "file": "android/gradle/wrapper/gradle-wrapper.properties",
+        "hash": "10340632815092109200"
+      },
+      {
+        "file": "android/gradlew",
+        "hash": "9896656627243825026"
+      },
+      {
+        "file": "android/gradlew.bat",
+        "hash": "8837338129170646035"
+      },
+      {
+        "file": "android/settings.gradle",
+        "hash": "426215723856156424"
+      },
+      {
+        "file": "android/variables.gradle",
+        "hash": "9467210284462474397"
+      },
+      {
+        "file": "angular.json",
+        "hash": "11375845771420018197"
+      },
+      {
+        "file": "capacitor.config.ts",
+        "hash": "17951547546893189289"
+      },
+      {
+        "file": "ionic.config.json",
+        "hash": "11821787680658734081"
+      },
+      {
+        "file": "karma.conf.js",
+        "hash": "13719387092471133633"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "8737974809265629334"
+      },
+      {
+        "file": "package.json",
+        "hash": "5602618279715835122"
+      },
+      {
+        "file": "src/app/app-routing.module.ts",
+        "hash": "11801418085704297101"
+      },
+      {
+        "file": "src/app/app.component.html",
+        "hash": "12139992690072916112"
+      },
+      {
+        "file": "src/app/app.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/app.component.spec.ts",
+        "hash": "16655258543879266906"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "3298285516620454244"
+      },
+      {
+        "file": "src/app/app.module.ts",
+        "hash": "6527899238969707104"
+      },
+      {
+        "file": "src/app/explore-container/explore-container.component.html",
+        "hash": "10574455846506954855"
+      },
+      {
+        "file": "src/app/explore-container/explore-container.component.scss",
+        "hash": "14250411118003398491"
+      },
+      {
+        "file": "src/app/explore-container/explore-container.component.spec.ts",
+        "hash": "5993597563574967271"
+      },
+      {
+        "file": "src/app/explore-container/explore-container.component.ts",
+        "hash": "5919589360752874304"
+      },
+      {
+        "file": "src/app/explore-container/explore-container.module.ts",
+        "hash": "7418061059857182964"
+      },
+      {
+        "file": "src/app/safe.pipe.ts",
+        "hash": "12913225443007051831"
+      },
+      {
+        "file": "src/app/scan-qr/scan-qr.component.html",
+        "hash": "14449107621313507223"
+      },
+      {
+        "file": "src/app/scan-qr/scan-qr.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/scan-qr/scan-qr.component.ts",
+        "hash": "9777404212750859874"
+      },
+      {
+        "file": "src/app/tab1/tab1-routing.module.ts",
+        "hash": "11381973081829977082"
+      },
+      {
+        "file": "src/app/tab1/tab1.module.ts",
+        "hash": "15566281578784902545"
+      },
+      {
+        "file": "src/app/tab1/tab1.page.html",
+        "hash": "11918470798535592947"
+      },
+      {
+        "file": "src/app/tab1/tab1.page.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/tab1/tab1.page.spec.ts",
+        "hash": "9476109993445867871"
+      },
+      {
+        "file": "src/app/tab1/tab1.page.ts",
+        "hash": "8593572152892482628"
+      },
+      {
+        "file": "src/app/tab2/tab2-routing.module.ts",
+        "hash": "7350080520046749647"
+      },
+      {
+        "file": "src/app/tab2/tab2.module.ts",
+        "hash": "15372332323707330095"
+      },
+      {
+        "file": "src/app/tab2/tab2.page.html",
+        "hash": "13340392613393970086"
+      },
+      {
+        "file": "src/app/tab2/tab2.page.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/tab2/tab2.page.spec.ts",
+        "hash": "8406418330988075840"
+      },
+      {
+        "file": "src/app/tab2/tab2.page.ts",
+        "hash": "1649071404575094014"
+      },
+      {
+        "file": "src/app/tab3/tab3-routing.module.ts",
+        "hash": "9012527419557272185"
+      },
+      {
+        "file": "src/app/tab3/tab3.module.ts",
+        "hash": "10502422086192062511"
+      },
+      {
+        "file": "src/app/tab3/tab3.page.html",
+        "hash": "1640442279298071434"
+      },
+      {
+        "file": "src/app/tab3/tab3.page.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/tab3/tab3.page.spec.ts",
+        "hash": "9818200618826629289"
+      },
+      {
+        "file": "src/app/tab3/tab3.page.ts",
+        "hash": "9950996585213729156"
+      },
+      {
+        "file": "src/app/tabs/tabs-routing.module.ts",
+        "hash": "7044889794849427242"
+      },
+      {
+        "file": "src/app/tabs/tabs.module.ts",
+        "hash": "2863071217556748594"
+      },
+      {
+        "file": "src/app/tabs/tabs.page.html",
+        "hash": "10354490750562014135"
+      },
+      {
+        "file": "src/app/tabs/tabs.page.scss",
+        "hash": "4055606894390288348"
+      },
+      {
+        "file": "src/app/tabs/tabs.page.spec.ts",
+        "hash": "8782813055802113365"
+      },
+      {
+        "file": "src/app/tabs/tabs.page.ts",
+        "hash": "15132660516945422335"
+      },
+      {
+        "file": "src/assets/icon/favicon.png",
+        "hash": "17482944836898362639"
+      },
+      {
+        "file": "src/assets/shapes.svg",
+        "hash": "4708889011185296100"
+      },
+      {
+        "file": "src/environments/environment.prod.ts",
+        "hash": "5406836414239361753"
+      },
+      {
+        "file": "src/environments/environment.ts",
+        "hash": "17458466784506237106"
+      },
+      {
+        "file": "src/global.scss",
+        "hash": "16777120732726033300"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "5962093970713772175"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "3447864527603543144"
+      },
+      {
+        "file": "src/polyfills.ts",
+        "hash": "16163444994210036896"
+      },
+      {
+        "file": "src/test.ts",
+        "hash": "12412031923219697029"
+      },
+      {
+        "file": "src/theme/variables.scss",
+        "hash": "10683809365950317113"
+      },
+      {
+        "file": "src/zone-flags.ts",
+        "hash": "3323586086306676158"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "9041030522571917449"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "9300148005582941852"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "17198424518534092990"
+      },
+      {
+        "file": "www/1315.ba5d2d6bcefc9865.js",
+        "hash": "5630430289051255199"
+      },
+      {
+        "file": "www/1372.0b40b7b1115588cc.js",
+        "hash": "469543081080306481"
+      },
+      {
+        "file": "www/1745.a37075e5b6ba2af7.js",
+        "hash": "14519834037970667152"
+      },
+      {
+        "file": "www/185.6a6fc0398b33ce08.js",
+        "hash": "7560683415246429597"
+      },
+      {
+        "file": "www/2195.232f82c7e0bda974.js",
+        "hash": "5423837508158765694"
+      },
+      {
+        "file": "www/2699.3979718770c9d959.js",
+        "hash": "10518410595798390751"
+      },
+      {
+        "file": "www/2841.d1174d0d5f9fbb2c.js",
+        "hash": "13992793015074581284"
+      },
+      {
+        "file": "www/2975.13873ba6ac974f56.js",
+        "hash": "478368282269098499"
+      },
+      {
+        "file": "www/3150.3275df9997a3467d.js",
+        "hash": "9674887196136912256"
+      },
+      {
+        "file": "www/3483.55ec4a7ae47bdcaa.js",
+        "hash": "10232180998886113439"
+      },
+      {
+        "file": "www/3544.3d865e3673ff8e96.js",
+        "hash": "9734488095371912598"
+      },
+      {
+        "file": "www/3672.0c7be13540a7ecd6.js",
+        "hash": "15846210517742837201"
+      },
+      {
+        "file": "www/3734.4323d19a7f3e5861.js",
+        "hash": "758560129138961982"
+      },
+      {
+        "file": "www/3998.5cd0d6cc9bbeb8dc.js",
+        "hash": "732251983650897326"
+      },
+      {
+        "file": "www/3rdpartylicenses.txt",
+        "hash": "16059553359779643374"
+      },
+      {
+        "file": "www/4054.6219d7aa575a3f4c.js",
+        "hash": "3649732964493204091"
+      },
+      {
+        "file": "www/4087.d95776d9caad1cda.js",
+        "hash": "5655218568060185085"
+      },
+      {
+        "file": "www/4090.7be25bd558bb0847.js",
+        "hash": "12337537034434554007"
+      },
+      {
+        "file": "www/433.7c7dc73a029add23.js",
+        "hash": "11638854185457377495"
+      },
+      {
+        "file": "www/4411.20ca8632553435ee.js",
+        "hash": "39300769115190190"
+      },
+      {
+        "file": "www/4458.642b5ad4876f8a67.js",
+        "hash": "15939039650242606950"
+      },
+      {
+        "file": "www/4530.de32b77e48908229.js",
+        "hash": "15830808138505564549"
+      },
+      {
+        "file": "www/469.9d885315d86d71c6.js",
+        "hash": "8357456541472891183"
+      },
+      {
+        "file": "www/4764.fdfd81f3dd42b8be.js",
+        "hash": "17183259223143911365"
+      },
+      {
+        "file": "www/505.79dabea2c14c38e5.js",
+        "hash": "1275613219262812851"
+      },
+      {
+        "file": "www/5365.37efc03679bb1f0e.js",
+        "hash": "15326641567456241096"
+      },
+      {
+        "file": "www/5454.34c835c7ed0bcd25.js",
+        "hash": "17882277163150379905"
+      },
+      {
+        "file": "www/5675.60d522a0269230e4.js",
+        "hash": "676671844776464761"
+      },
+      {
+        "file": "www/582.9e02419b7cb26511.js",
+        "hash": "6740808388382104361"
+      },
+      {
+        "file": "www/5860.5729a76256e0974b.js",
+        "hash": "5237641282146993909"
+      },
+      {
+        "file": "www/5962.6a9730fa66b1e5b4.js",
+        "hash": "17833785661449134187"
+      },
+      {
+        "file": "www/6304.52f8500b320c9da5.js",
+        "hash": "3606655783978888594"
+      },
+      {
+        "file": "www/6642.75d9d4ebd3058068.js",
+        "hash": "5714765039973587783"
+      },
+      {
+        "file": "www/6673.021340582facfa1b.js",
+        "hash": "17414030886191628354"
+      },
+      {
+        "file": "www/6754.b53bdbed3696a53b.js",
+        "hash": "13155893289819885132"
+      },
+      {
+        "file": "www/7059.aa44cb6d71cca7e5.js",
+        "hash": "3038487486911603279"
+      },
+      {
+        "file": "www/7219.cb97e8ca0680bac8.js",
+        "hash": "17039349921911439684"
+      },
+      {
+        "file": "www/7250.dd7a58df6c68d73e.js",
+        "hash": "5284315521408174060"
+      },
+      {
+        "file": "www/7465.af84f728162a8308.js",
+        "hash": "8653875686801943455"
+      },
+      {
+        "file": "www/7635.93203f1a6edf399b.js",
+        "hash": "16559099679365676261"
+      },
+      {
+        "file": "www/7666.d6be56efeb5dcbb2.js",
+        "hash": "11523138135163011041"
+      },
+      {
+        "file": "www/7981.bf53eb72f3bb0b15.js",
+        "hash": "2609096948478143870"
+      },
+      {
+        "file": "www/8204.b9dd978c3d42ee9e.js",
+        "hash": "12435866695137991996"
+      },
+      {
+        "file": "www/8382.2fc53e4dc53a95e9.js",
+        "hash": "15976282274249749430"
+      },
+      {
+        "file": "www/8484.c08f88f2b160ea9a.js",
+        "hash": "17129892060780655052"
+      },
+      {
+        "file": "www/8577.871a62d1fd8b551e.js",
+        "hash": "13629915946955546408"
+      },
+      {
+        "file": "www/8594.61b7ea400087cc83.js",
+        "hash": "1681703060131331067"
+      },
+      {
+        "file": "www/8633.6e221c1ddee9e0a5.js",
+        "hash": "12599642750937599543"
+      },
+      {
+        "file": "www/8811.9e8d4619b0ef0221.js",
+        "hash": "8799472988276938983"
+      },
+      {
+        "file": "www/8866.62669dfb3dcdb6be.js",
+        "hash": "6990255296750134652"
+      },
+      {
+        "file": "www/9352.453dbc806830b5c9.js",
+        "hash": "11300630568169511626"
+      },
+      {
+        "file": "www/9588.723a39e01bd81d6d.js",
+        "hash": "575582891384736066"
+      },
+      {
+        "file": "www/962.3fb0dac75d94cc95.js",
+        "hash": "245219863870077896"
+      },
+      {
+        "file": "www/9793.f6d002f77a35da2b.js",
+        "hash": "17188369023088780354"
+      },
+      {
+        "file": "www/9820.b4a1d2e62988aeb9.js",
+        "hash": "12708760226556053235"
+      },
+      {
+        "file": "www/9857.061d2d521174f341.js",
+        "hash": "1357413582109314884"
+      },
+      {
+        "file": "www/9882.3792f82a1a0412d4.js",
+        "hash": "18307996124393417950"
+      },
+      {
+        "file": "www/9992.afe90b5840c2f583.js",
+        "hash": "745509463385089726"
+      },
+      {
+        "file": "www/assets/icon/favicon.png",
+        "hash": "17482944836898362639"
+      },
+      {
+        "file": "www/assets/shapes.svg",
+        "hash": "4708889011185296100"
+      },
+      {
+        "file": "www/assets/wasm/index.d.ts",
+        "hash": "7983743759362455396"
+      },
+      {
+        "file": "www/assets/wasm/index.js",
+        "hash": "11037898038646181885"
+      },
+      {
+        "file": "www/assets/wasm/index.js.map",
+        "hash": "5925150049736871408"
+      },
+      {
+        "file": "www/assets/wasm/ngx-scanner-qrcode.wasm",
+        "hash": "13846337282199101266"
+      },
+      {
+        "file": "www/common.402229cae7ab4797.js",
+        "hash": "8034316133897474806"
+      },
+      {
+        "file": "www/index.html",
+        "hash": "2130465990370476922"
+      },
+      {
+        "file": "www/main.386519cdb7380cef.js",
+        "hash": "467418171304074232"
+      },
+      {
+        "file": "www/polyfills-core-js.93f56369317b7a8e.js",
+        "hash": "12847158003045368787"
+      },
+      {
+        "file": "www/polyfills-dom.516ff539260f3e0d.js",
+        "hash": "17216940946899991684"
+      },
+      {
+        "file": "www/polyfills.cf419aa12150fa3f.js",
+        "hash": "17275262380199501784"
+      },
+      {
+        "file": "www/runtime.21ac83fd8fa5f6a4.js",
+        "hash": "14272438889487862175"
+      },
+      {
+        "file": "www/styles.b2664a24098dc4dc.css",
+        "hash": "3219817950824317445"
+      },
+      {
+        "file": "www/svg/accessibility-outline.svg",
+        "hash": "1352900311426468201"
+      },
+      {
+        "file": "www/svg/accessibility-sharp.svg",
+        "hash": "17992341748250458538"
+      },
+      {
+        "file": "www/svg/accessibility.svg",
+        "hash": "5567555606820813324"
+      },
+      {
+        "file": "www/svg/add-circle-outline.svg",
+        "hash": "3748823510246674257"
+      },
+      {
+        "file": "www/svg/add-circle-sharp.svg",
+        "hash": "13785280188158011444"
+      },
+      {
+        "file": "www/svg/add-circle.svg",
+        "hash": "13284675354021439177"
+      },
+      {
+        "file": "www/svg/add-outline.svg",
+        "hash": "16972221314096161307"
+      },
+      {
+        "file": "www/svg/add-sharp.svg",
+        "hash": "5412505620233809648"
+      },
+      {
+        "file": "www/svg/add.svg",
+        "hash": "16972221314096161307"
+      },
+      {
+        "file": "www/svg/airplane-outline.svg",
+        "hash": "13692293141653111076"
+      },
+      {
+        "file": "www/svg/airplane-sharp.svg",
+        "hash": "3935739427405387050"
+      },
+      {
+        "file": "www/svg/airplane.svg",
+        "hash": "11804446631401069299"
+      },
+      {
+        "file": "www/svg/alarm-outline.svg",
+        "hash": "15919348285949948437"
+      },
+      {
+        "file": "www/svg/alarm-sharp.svg",
+        "hash": "4310993966112967085"
+      },
+      {
+        "file": "www/svg/alarm.svg",
+        "hash": "12637544190759246210"
+      },
+      {
+        "file": "www/svg/albums-outline.svg",
+        "hash": "5998252154393316427"
+      },
+      {
+        "file": "www/svg/albums-sharp.svg",
+        "hash": "16491776066454756779"
+      },
+      {
+        "file": "www/svg/albums.svg",
+        "hash": "15127361684030708920"
+      },
+      {
+        "file": "www/svg/alert-circle-outline.svg",
+        "hash": "4694560976449607544"
+      },
+      {
+        "file": "www/svg/alert-circle-sharp.svg",
+        "hash": "10090953275516486518"
+      },
+      {
+        "file": "www/svg/alert-circle.svg",
+        "hash": "15863321217638788539"
+      },
+      {
+        "file": "www/svg/alert-outline.svg",
+        "hash": "16078889637864149053"
+      },
+      {
+        "file": "www/svg/alert-sharp.svg",
+        "hash": "14223138570695118928"
+      },
+      {
+        "file": "www/svg/alert.svg",
+        "hash": "16078889637864149053"
+      },
+      {
+        "file": "www/svg/american-football-outline.svg",
+        "hash": "7005161951226891969"
+      },
+      {
+        "file": "www/svg/american-football-sharp.svg",
+        "hash": "3806994738998889610"
+      },
+      {
+        "file": "www/svg/american-football.svg",
+        "hash": "2706927476642363487"
+      },
+      {
+        "file": "www/svg/analytics-outline.svg",
+        "hash": "14664175730704944918"
+      },
+      {
+        "file": "www/svg/analytics-sharp.svg",
+        "hash": "13787249153403464667"
+      },
+      {
+        "file": "www/svg/analytics.svg",
+        "hash": "18279393307264634706"
+      },
+      {
+        "file": "www/svg/aperture-outline.svg",
+        "hash": "9356141422052302430"
+      },
+      {
+        "file": "www/svg/aperture-sharp.svg",
+        "hash": "15843491907417964676"
+      },
+      {
+        "file": "www/svg/aperture.svg",
+        "hash": "7639161159184289542"
+      },
+      {
+        "file": "www/svg/apps-outline.svg",
+        "hash": "15620960670980243135"
+      },
+      {
+        "file": "www/svg/apps-sharp.svg",
+        "hash": "11628236939891761228"
+      },
+      {
+        "file": "www/svg/apps.svg",
+        "hash": "9942934034236166929"
+      },
+      {
+        "file": "www/svg/archive-outline.svg",
+        "hash": "9721243878582613802"
+      },
+      {
+        "file": "www/svg/archive-sharp.svg",
+        "hash": "15921021304854936098"
+      },
+      {
+        "file": "www/svg/archive.svg",
+        "hash": "11523301876843366744"
+      },
+      {
+        "file": "www/svg/arrow-back-circle-outline.svg",
+        "hash": "1868372268829169570"
+      },
+      {
+        "file": "www/svg/arrow-back-circle-sharp.svg",
+        "hash": "3671384358722805204"
+      },
+      {
+        "file": "www/svg/arrow-back-circle.svg",
+        "hash": "11018331604219517663"
+      },
+      {
+        "file": "www/svg/arrow-back-outline.svg",
+        "hash": "15704441181801786247"
+      },
+      {
+        "file": "www/svg/arrow-back-sharp.svg",
+        "hash": "4401812194604833279"
+      },
+      {
+        "file": "www/svg/arrow-back.svg",
+        "hash": "15704441181801786247"
+      },
+      {
+        "file": "www/svg/arrow-down-circle-outline.svg",
+        "hash": "3702372959220983903"
+      },
+      {
+        "file": "www/svg/arrow-down-circle-sharp.svg",
+        "hash": "17626597067610131000"
+      },
+      {
+        "file": "www/svg/arrow-down-circle.svg",
+        "hash": "11283902573351358573"
+      },
+      {
+        "file": "www/svg/arrow-down-outline.svg",
+        "hash": "13792885668925137525"
+      },
+      {
+        "file": "www/svg/arrow-down-sharp.svg",
+        "hash": "9483475775468290335"
+      },
+      {
+        "file": "www/svg/arrow-down.svg",
+        "hash": "13792885668925137525"
+      },
+      {
+        "file": "www/svg/arrow-forward-circle-outline.svg",
+        "hash": "2280303064826447289"
+      },
+      {
+        "file": "www/svg/arrow-forward-circle-sharp.svg",
+        "hash": "3219689523275965603"
+      },
+      {
+        "file": "www/svg/arrow-forward-circle.svg",
+        "hash": "6139901133286805508"
+      },
+      {
+        "file": "www/svg/arrow-forward-outline.svg",
+        "hash": "16949588223930007189"
+      },
+      {
+        "file": "www/svg/arrow-forward-sharp.svg",
+        "hash": "12205983638583358588"
+      },
+      {
+        "file": "www/svg/arrow-forward.svg",
+        "hash": "16949588223930007189"
+      },
+      {
+        "file": "www/svg/arrow-redo-circle-outline.svg",
+        "hash": "6676401611890549342"
+      },
+      {
+        "file": "www/svg/arrow-redo-circle-sharp.svg",
+        "hash": "13265439253154943490"
+      },
+      {
+        "file": "www/svg/arrow-redo-circle.svg",
+        "hash": "15184293156860612054"
+      },
+      {
+        "file": "www/svg/arrow-redo-outline.svg",
+        "hash": "12915222884784556916"
+      },
+      {
+        "file": "www/svg/arrow-redo-sharp.svg",
+        "hash": "2821540778825500099"
+      },
+      {
+        "file": "www/svg/arrow-redo.svg",
+        "hash": "18103531311400106651"
+      },
+      {
+        "file": "www/svg/arrow-undo-circle-outline.svg",
+        "hash": "13756363254410043445"
+      },
+      {
+        "file": "www/svg/arrow-undo-circle-sharp.svg",
+        "hash": "18390922734328029496"
+      },
+      {
+        "file": "www/svg/arrow-undo-circle.svg",
+        "hash": "14103384930445781760"
+      },
+      {
+        "file": "www/svg/arrow-undo-outline.svg",
+        "hash": "14021600403816963989"
+      },
+      {
+        "file": "www/svg/arrow-undo-sharp.svg",
+        "hash": "2001818571494226407"
+      },
+      {
+        "file": "www/svg/arrow-undo.svg",
+        "hash": "9018881214888711473"
+      },
+      {
+        "file": "www/svg/arrow-up-circle-outline.svg",
+        "hash": "8999819992563523999"
+      },
+      {
+        "file": "www/svg/arrow-up-circle-sharp.svg",
+        "hash": "7787783731540605794"
+      },
+      {
+        "file": "www/svg/arrow-up-circle.svg",
+        "hash": "14347575552438966641"
+      },
+      {
+        "file": "www/svg/arrow-up-outline.svg",
+        "hash": "10028936381177021625"
+      },
+      {
+        "file": "www/svg/arrow-up-sharp.svg",
+        "hash": "12050863506166179205"
+      },
+      {
+        "file": "www/svg/arrow-up.svg",
+        "hash": "10028936381177021625"
+      },
+      {
+        "file": "www/svg/at-circle-outline.svg",
+        "hash": "16009629593391561214"
+      },
+      {
+        "file": "www/svg/at-circle-sharp.svg",
+        "hash": "18400309457560216595"
+      },
+      {
+        "file": "www/svg/at-circle.svg",
+        "hash": "17989564180837659006"
+      },
+      {
+        "file": "www/svg/at-outline.svg",
+        "hash": "17390692559066058986"
+      },
+      {
+        "file": "www/svg/at-sharp.svg",
+        "hash": "9142717502722755870"
+      },
+      {
+        "file": "www/svg/at.svg",
+        "hash": "17390692559066058986"
+      },
+      {
+        "file": "www/svg/attach-outline.svg",
+        "hash": "12472243584931781375"
+      },
+      {
+        "file": "www/svg/attach-sharp.svg",
+        "hash": "10111493131220909293"
+      },
+      {
+        "file": "www/svg/attach.svg",
+        "hash": "12472243584931781375"
+      },
+      {
+        "file": "www/svg/backspace-outline.svg",
+        "hash": "18116199405886696841"
+      },
+      {
+        "file": "www/svg/backspace-sharp.svg",
+        "hash": "4953406118645363430"
+      },
+      {
+        "file": "www/svg/backspace.svg",
+        "hash": "15352240470755778026"
+      },
+      {
+        "file": "www/svg/bag-add-outline.svg",
+        "hash": "8501089355968930348"
+      },
+      {
+        "file": "www/svg/bag-add-sharp.svg",
+        "hash": "15964213967316786738"
+      },
+      {
+        "file": "www/svg/bag-add.svg",
+        "hash": "3723935422082645417"
+      },
+      {
+        "file": "www/svg/bag-check-outline.svg",
+        "hash": "8721555833592605392"
+      },
+      {
+        "file": "www/svg/bag-check-sharp.svg",
+        "hash": "5331006670213467562"
+      },
+      {
+        "file": "www/svg/bag-check.svg",
+        "hash": "6995297562772695612"
+      },
+      {
+        "file": "www/svg/bag-handle-outline.svg",
+        "hash": "1747690011229335541"
+      },
+      {
+        "file": "www/svg/bag-handle-sharp.svg",
+        "hash": "1952178270858982812"
+      },
+      {
+        "file": "www/svg/bag-handle.svg",
+        "hash": "12350169881585996209"
+      },
+      {
+        "file": "www/svg/bag-outline.svg",
+        "hash": "17779593794244401241"
+      },
+      {
+        "file": "www/svg/bag-remove-outline.svg",
+        "hash": "14204800117205283987"
+      },
+      {
+        "file": "www/svg/bag-remove-sharp.svg",
+        "hash": "1180382143226076363"
+      },
+      {
+        "file": "www/svg/bag-remove.svg",
+        "hash": "141059661615508614"
+      },
+      {
+        "file": "www/svg/bag-sharp.svg",
+        "hash": "8267268228364272917"
+      },
+      {
+        "file": "www/svg/bag.svg",
+        "hash": "11122566321548940208"
+      },
+      {
+        "file": "www/svg/balloon-outline.svg",
+        "hash": "1496007852376360958"
+      },
+      {
+        "file": "www/svg/balloon-sharp.svg",
+        "hash": "15290970860666439233"
+      },
+      {
+        "file": "www/svg/balloon.svg",
+        "hash": "9677809484907292888"
+      },
+      {
+        "file": "www/svg/ban-outline.svg",
+        "hash": "15833321971121950106"
+      },
+      {
+        "file": "www/svg/ban-sharp.svg",
+        "hash": "7658903128649860801"
+      },
+      {
+        "file": "www/svg/ban.svg",
+        "hash": "8008805394408837477"
+      },
+      {
+        "file": "www/svg/bandage-outline.svg",
+        "hash": "17842717759991563507"
+      },
+      {
+        "file": "www/svg/bandage-sharp.svg",
+        "hash": "11610313928787182311"
+      },
+      {
+        "file": "www/svg/bandage.svg",
+        "hash": "350496300913627794"
+      },
+      {
+        "file": "www/svg/bar-chart-outline.svg",
+        "hash": "12074542320542418922"
+      },
+      {
+        "file": "www/svg/bar-chart-sharp.svg",
+        "hash": "11221495057054055459"
+      },
+      {
+        "file": "www/svg/bar-chart.svg",
+        "hash": "6639880605229944725"
+      },
+      {
+        "file": "www/svg/barbell-outline.svg",
+        "hash": "13134126998639623615"
+      },
+      {
+        "file": "www/svg/barbell-sharp.svg",
+        "hash": "15901953002540579541"
+      },
+      {
+        "file": "www/svg/barbell.svg",
+        "hash": "9039912309335917643"
+      },
+      {
+        "file": "www/svg/barcode-outline.svg",
+        "hash": "14730573093337156732"
+      },
+      {
+        "file": "www/svg/barcode-sharp.svg",
+        "hash": "6303358740556867579"
+      },
+      {
+        "file": "www/svg/barcode.svg",
+        "hash": "6679539672038944783"
+      },
+      {
+        "file": "www/svg/baseball-outline.svg",
+        "hash": "444581009278743378"
+      },
+      {
+        "file": "www/svg/baseball-sharp.svg",
+        "hash": "12948353289599398861"
+      },
+      {
+        "file": "www/svg/baseball.svg",
+        "hash": "10015836352659804300"
+      },
+      {
+        "file": "www/svg/basket-outline.svg",
+        "hash": "18266942040277857504"
+      },
+      {
+        "file": "www/svg/basket-sharp.svg",
+        "hash": "17143436513437442905"
+      },
+      {
+        "file": "www/svg/basket.svg",
+        "hash": "4949228764478807172"
+      },
+      {
+        "file": "www/svg/basketball-outline.svg",
+        "hash": "7541508386471120697"
+      },
+      {
+        "file": "www/svg/basketball-sharp.svg",
+        "hash": "4997131534395200466"
+      },
+      {
+        "file": "www/svg/basketball.svg",
+        "hash": "4997131534395200466"
+      },
+      {
+        "file": "www/svg/battery-charging-outline.svg",
+        "hash": "45042055580005062"
+      },
+      {
+        "file": "www/svg/battery-charging-sharp.svg",
+        "hash": "6713209560634253712"
+      },
+      {
+        "file": "www/svg/battery-charging.svg",
+        "hash": "45042055580005062"
+      },
+      {
+        "file": "www/svg/battery-dead-outline.svg",
+        "hash": "17806751697177983942"
+      },
+      {
+        "file": "www/svg/battery-dead-sharp.svg",
+        "hash": "12758286309121649904"
+      },
+      {
+        "file": "www/svg/battery-dead.svg",
+        "hash": "17806751697177983942"
+      },
+      {
+        "file": "www/svg/battery-full-outline.svg",
+        "hash": "12991260193720167999"
+      },
+      {
+        "file": "www/svg/battery-full-sharp.svg",
+        "hash": "10365556265023548026"
+      },
+      {
+        "file": "www/svg/battery-full.svg",
+        "hash": "12991260193720167999"
+      },
+      {
+        "file": "www/svg/battery-half-outline.svg",
+        "hash": "3122126153994198859"
+      },
+      {
+        "file": "www/svg/battery-half-sharp.svg",
+        "hash": "7232478621517175421"
+      },
+      {
+        "file": "www/svg/battery-half.svg",
+        "hash": "3122126153994198859"
+      },
+      {
+        "file": "www/svg/beaker-outline.svg",
+        "hash": "16307183138546569740"
+      },
+      {
+        "file": "www/svg/beaker-sharp.svg",
+        "hash": "17223269810550024913"
+      },
+      {
+        "file": "www/svg/beaker.svg",
+        "hash": "15256757080178378474"
+      },
+      {
+        "file": "www/svg/bed-outline.svg",
+        "hash": "16628012654059720092"
+      },
+      {
+        "file": "www/svg/bed-sharp.svg",
+        "hash": "1866274307999857956"
+      },
+      {
+        "file": "www/svg/bed.svg",
+        "hash": "5814179110064562632"
+      },
+      {
+        "file": "www/svg/beer-outline.svg",
+        "hash": "11971588697154932945"
+      },
+      {
+        "file": "www/svg/beer-sharp.svg",
+        "hash": "16089977502267389423"
+      },
+      {
+        "file": "www/svg/beer.svg",
+        "hash": "1156165955371170193"
+      },
+      {
+        "file": "www/svg/bicycle-outline.svg",
+        "hash": "17770066738142543889"
+      },
+      {
+        "file": "www/svg/bicycle-sharp.svg",
+        "hash": "776697501292845151"
+      },
+      {
+        "file": "www/svg/bicycle.svg",
+        "hash": "17763243451937143584"
+      },
+      {
+        "file": "www/svg/bluetooth-outline.svg",
+        "hash": "3142640358482707829"
+      },
+      {
+        "file": "www/svg/bluetooth-sharp.svg",
+        "hash": "10671961400031165136"
+      },
+      {
+        "file": "www/svg/bluetooth.svg",
+        "hash": "18253700709798530837"
+      },
+      {
+        "file": "www/svg/boat-outline.svg",
+        "hash": "3262185548681768968"
+      },
+      {
+        "file": "www/svg/boat-sharp.svg",
+        "hash": "6668468874296189691"
+      },
+      {
+        "file": "www/svg/boat.svg",
+        "hash": "864789486773140072"
+      },
+      {
+        "file": "www/svg/body-outline.svg",
+        "hash": "4759963002958267695"
+      },
+      {
+        "file": "www/svg/body-sharp.svg",
+        "hash": "829785292210279194"
+      },
+      {
+        "file": "www/svg/body.svg",
+        "hash": "15857339996039263282"
+      },
+      {
+        "file": "www/svg/bonfire-outline.svg",
+        "hash": "4503308580452902620"
+      },
+      {
+        "file": "www/svg/bonfire-sharp.svg",
+        "hash": "7789103600012357264"
+      },
+      {
+        "file": "www/svg/bonfire.svg",
+        "hash": "5242347491709233227"
+      },
+      {
+        "file": "www/svg/book-outline.svg",
+        "hash": "13124814818656298907"
+      },
+      {
+        "file": "www/svg/book-sharp.svg",
+        "hash": "11477717516899396372"
+      },
+      {
+        "file": "www/svg/book.svg",
+        "hash": "5602565670174558484"
+      },
+      {
+        "file": "www/svg/bookmark-outline.svg",
+        "hash": "15263644100467164853"
+      },
+      {
+        "file": "www/svg/bookmark-sharp.svg",
+        "hash": "6952514484679409478"
+      },
+      {
+        "file": "www/svg/bookmark.svg",
+        "hash": "13697172606923361469"
+      },
+      {
+        "file": "www/svg/bookmarks-outline.svg",
+        "hash": "1836030420960163628"
+      },
+      {
+        "file": "www/svg/bookmarks-sharp.svg",
+        "hash": "17693279608354820037"
+      },
+      {
+        "file": "www/svg/bookmarks.svg",
+        "hash": "17099455364347631438"
+      },
+      {
+        "file": "www/svg/bowling-ball-outline.svg",
+        "hash": "4217509368070945431"
+      },
+      {
+        "file": "www/svg/bowling-ball-sharp.svg",
+        "hash": "14739933319136672038"
+      },
+      {
+        "file": "www/svg/bowling-ball.svg",
+        "hash": "5553792222559954678"
+      },
+      {
+        "file": "www/svg/briefcase-outline.svg",
+        "hash": "5987461364922237404"
+      },
+      {
+        "file": "www/svg/briefcase-sharp.svg",
+        "hash": "7605079501821131007"
+      },
+      {
+        "file": "www/svg/briefcase.svg",
+        "hash": "3839145396529889737"
+      },
+      {
+        "file": "www/svg/browsers-outline.svg",
+        "hash": "4469840442394504510"
+      },
+      {
+        "file": "www/svg/browsers-sharp.svg",
+        "hash": "2121042490335082428"
+      },
+      {
+        "file": "www/svg/browsers.svg",
+        "hash": "15762029209571374332"
+      },
+      {
+        "file": "www/svg/brush-outline.svg",
+        "hash": "10285062887577625917"
+      },
+      {
+        "file": "www/svg/brush-sharp.svg",
+        "hash": "16552790686844554933"
+      },
+      {
+        "file": "www/svg/brush.svg",
+        "hash": "13191096694365148059"
+      },
+      {
+        "file": "www/svg/bug-outline.svg",
+        "hash": "18372390570816395544"
+      },
+      {
+        "file": "www/svg/bug-sharp.svg",
+        "hash": "12663673923356306343"
+      },
+      {
+        "file": "www/svg/bug.svg",
+        "hash": "15891124869339920416"
+      },
+      {
+        "file": "www/svg/build-outline.svg",
+        "hash": "4120594927132628606"
+      },
+      {
+        "file": "www/svg/build-sharp.svg",
+        "hash": "18136466518199189369"
+      },
+      {
+        "file": "www/svg/build.svg",
+        "hash": "13983066305752300221"
+      },
+      {
+        "file": "www/svg/bulb-outline.svg",
+        "hash": "1724343257765826576"
+      },
+      {
+        "file": "www/svg/bulb-sharp.svg",
+        "hash": "11694965630345476447"
+      },
+      {
+        "file": "www/svg/bulb.svg",
+        "hash": "12312402905978288392"
+      },
+      {
+        "file": "www/svg/bus-outline.svg",
+        "hash": "4979354787586703798"
+      },
+      {
+        "file": "www/svg/bus-sharp.svg",
+        "hash": "1381875000381030562"
+      },
+      {
+        "file": "www/svg/bus.svg",
+        "hash": "16749237920657550925"
+      },
+      {
+        "file": "www/svg/business-outline.svg",
+        "hash": "7346316305081674256"
+      },
+      {
+        "file": "www/svg/business-sharp.svg",
+        "hash": "4900979137255658800"
+      },
+      {
+        "file": "www/svg/business.svg",
+        "hash": "11220874961628492780"
+      },
+      {
+        "file": "www/svg/cafe-outline.svg",
+        "hash": "6197683189957456672"
+      },
+      {
+        "file": "www/svg/cafe-sharp.svg",
+        "hash": "14096397611089216443"
+      },
+      {
+        "file": "www/svg/cafe.svg",
+        "hash": "13717125478371806106"
+      },
+      {
+        "file": "www/svg/calculator-outline.svg",
+        "hash": "14601152793850425737"
+      },
+      {
+        "file": "www/svg/calculator-sharp.svg",
+        "hash": "13705699019593285446"
+      },
+      {
+        "file": "www/svg/calculator.svg",
+        "hash": "10928699865593539124"
+      },
+      {
+        "file": "www/svg/calendar-clear-outline.svg",
+        "hash": "14486951546492873464"
+      },
+      {
+        "file": "www/svg/calendar-clear-sharp.svg",
+        "hash": "18056842202562384433"
+      },
+      {
+        "file": "www/svg/calendar-clear.svg",
+        "hash": "5878988969875122633"
+      },
+      {
+        "file": "www/svg/calendar-number-outline.svg",
+        "hash": "3435209669193210773"
+      },
+      {
+        "file": "www/svg/calendar-number-sharp.svg",
+        "hash": "12488943183668007034"
+      },
+      {
+        "file": "www/svg/calendar-number.svg",
+        "hash": "5216242194929669027"
+      },
+      {
+        "file": "www/svg/calendar-outline.svg",
+        "hash": "2606922890622820034"
+      },
+      {
+        "file": "www/svg/calendar-sharp.svg",
+        "hash": "1234387596871343497"
+      },
+      {
+        "file": "www/svg/calendar.svg",
+        "hash": "7925354049466024114"
+      },
+      {
+        "file": "www/svg/call-outline.svg",
+        "hash": "17054321449389325827"
+      },
+      {
+        "file": "www/svg/call-sharp.svg",
+        "hash": "7507920732153558580"
+      },
+      {
+        "file": "www/svg/call.svg",
+        "hash": "18090126331714039236"
+      },
+      {
+        "file": "www/svg/camera-outline.svg",
+        "hash": "16742862263708702196"
+      },
+      {
+        "file": "www/svg/camera-reverse-outline.svg",
+        "hash": "12823709984117298759"
+      },
+      {
+        "file": "www/svg/camera-reverse-sharp.svg",
+        "hash": "2331887395904445855"
+      },
+      {
+        "file": "www/svg/camera-reverse.svg",
+        "hash": "16193323856591221300"
+      },
+      {
+        "file": "www/svg/camera-sharp.svg",
+        "hash": "8645847844033162508"
+      },
+      {
+        "file": "www/svg/camera.svg",
+        "hash": "10229905678618902976"
+      },
+      {
+        "file": "www/svg/car-outline.svg",
+        "hash": "1711515759707482959"
+      },
+      {
+        "file": "www/svg/car-sharp.svg",
+        "hash": "6640100830584726520"
+      },
+      {
+        "file": "www/svg/car-sport-outline.svg",
+        "hash": "910080704217331574"
+      },
+      {
+        "file": "www/svg/car-sport-sharp.svg",
+        "hash": "7102822054069240631"
+      },
+      {
+        "file": "www/svg/car-sport.svg",
+        "hash": "315103256578833356"
+      },
+      {
+        "file": "www/svg/car.svg",
+        "hash": "9770099005527443015"
+      },
+      {
+        "file": "www/svg/card-outline.svg",
+        "hash": "7877010060793565336"
+      },
+      {
+        "file": "www/svg/card-sharp.svg",
+        "hash": "3829725655309646526"
+      },
+      {
+        "file": "www/svg/card.svg",
+        "hash": "962353582523592305"
+      },
+      {
+        "file": "www/svg/caret-back-circle-outline.svg",
+        "hash": "10919657408074744845"
+      },
+      {
+        "file": "www/svg/caret-back-circle-sharp.svg",
+        "hash": "2455898264809673461"
+      },
+      {
+        "file": "www/svg/caret-back-circle.svg",
+        "hash": "10700624069992078371"
+      },
+      {
+        "file": "www/svg/caret-back-outline.svg",
+        "hash": "4317007916721742821"
+      },
+      {
+        "file": "www/svg/caret-back-sharp.svg",
+        "hash": "14198815212146640968"
+      },
+      {
+        "file": "www/svg/caret-back.svg",
+        "hash": "4317007916721742821"
+      },
+      {
+        "file": "www/svg/caret-down-circle-outline.svg",
+        "hash": "4878267949703953710"
+      },
+      {
+        "file": "www/svg/caret-down-circle-sharp.svg",
+        "hash": "16528730361850400570"
+      },
+      {
+        "file": "www/svg/caret-down-circle.svg",
+        "hash": "14487493440314584491"
+      },
+      {
+        "file": "www/svg/caret-down-outline.svg",
+        "hash": "3797517529699821450"
+      },
+      {
+        "file": "www/svg/caret-down-sharp.svg",
+        "hash": "15906833688620714862"
+      },
+      {
+        "file": "www/svg/caret-down.svg",
+        "hash": "3797517529699821450"
+      },
+      {
+        "file": "www/svg/caret-forward-circle-outline.svg",
+        "hash": "1794644685074036638"
+      },
+      {
+        "file": "www/svg/caret-forward-circle-sharp.svg",
+        "hash": "5321177536810493984"
+      },
+      {
+        "file": "www/svg/caret-forward-circle.svg",
+        "hash": "16032267389693847293"
+      },
+      {
+        "file": "www/svg/caret-forward-outline.svg",
+        "hash": "14043163954885394273"
+      },
+      {
+        "file": "www/svg/caret-forward-sharp.svg",
+        "hash": "11523525356841443533"
+      },
+      {
+        "file": "www/svg/caret-forward.svg",
+        "hash": "14043163954885394273"
+      },
+      {
+        "file": "www/svg/caret-up-circle-outline.svg",
+        "hash": "17390223405761597194"
+      },
+      {
+        "file": "www/svg/caret-up-circle-sharp.svg",
+        "hash": "2598674256132148212"
+      },
+      {
+        "file": "www/svg/caret-up-circle.svg",
+        "hash": "12722279552075768970"
+      },
+      {
+        "file": "www/svg/caret-up-outline.svg",
+        "hash": "2322240360489613985"
+      },
+      {
+        "file": "www/svg/caret-up-sharp.svg",
+        "hash": "4194431976067602624"
+      },
+      {
+        "file": "www/svg/caret-up.svg",
+        "hash": "2322240360489613985"
+      },
+      {
+        "file": "www/svg/cart-outline.svg",
+        "hash": "8322914483563706740"
+      },
+      {
+        "file": "www/svg/cart-sharp.svg",
+        "hash": "12685232367264705882"
+      },
+      {
+        "file": "www/svg/cart.svg",
+        "hash": "10898104928677836759"
+      },
+      {
+        "file": "www/svg/cash-outline.svg",
+        "hash": "2922230165249386398"
+      },
+      {
+        "file": "www/svg/cash-sharp.svg",
+        "hash": "215969290923189227"
+      },
+      {
+        "file": "www/svg/cash.svg",
+        "hash": "10405184159400564314"
+      },
+      {
+        "file": "www/svg/cellular-outline.svg",
+        "hash": "5377656256899007121"
+      },
+      {
+        "file": "www/svg/cellular-sharp.svg",
+        "hash": "5835134014532896764"
+      },
+      {
+        "file": "www/svg/cellular.svg",
+        "hash": "17669086676596887870"
+      },
+      {
+        "file": "www/svg/chatbox-ellipses-outline.svg",
+        "hash": "7753353176533198330"
+      },
+      {
+        "file": "www/svg/chatbox-ellipses-sharp.svg",
+        "hash": "17777490392530931080"
+      },
+      {
+        "file": "www/svg/chatbox-ellipses.svg",
+        "hash": "1691448336954583177"
+      },
+      {
+        "file": "www/svg/chatbox-outline.svg",
+        "hash": "9010576350591735824"
+      },
+      {
+        "file": "www/svg/chatbox-sharp.svg",
+        "hash": "4335081854824722406"
+      },
+      {
+        "file": "www/svg/chatbox.svg",
+        "hash": "245741345866896759"
+      },
+      {
+        "file": "www/svg/chatbubble-ellipses-outline.svg",
+        "hash": "11616917932317730818"
+      },
+      {
+        "file": "www/svg/chatbubble-ellipses-sharp.svg",
+        "hash": "7746334824518486107"
+      },
+      {
+        "file": "www/svg/chatbubble-ellipses.svg",
+        "hash": "9713678740761303760"
+      },
+      {
+        "file": "www/svg/chatbubble-outline.svg",
+        "hash": "12046490881548908895"
+      },
+      {
+        "file": "www/svg/chatbubble-sharp.svg",
+        "hash": "11233743168257540988"
+      },
+      {
+        "file": "www/svg/chatbubble.svg",
+        "hash": "5263438976390374296"
+      },
+      {
+        "file": "www/svg/chatbubbles-outline.svg",
+        "hash": "4765143385116966269"
+      },
+      {
+        "file": "www/svg/chatbubbles-sharp.svg",
+        "hash": "18006071473631452813"
+      },
+      {
+        "file": "www/svg/chatbubbles.svg",
+        "hash": "14992052747743341609"
+      },
+      {
+        "file": "www/svg/checkbox-outline.svg",
+        "hash": "16811881308128543229"
+      },
+      {
+        "file": "www/svg/checkbox-sharp.svg",
+        "hash": "11804492110947929240"
+      },
+      {
+        "file": "www/svg/checkbox.svg",
+        "hash": "5911183121097161585"
+      },
+      {
+        "file": "www/svg/checkmark-circle-outline.svg",
+        "hash": "956426186861350830"
+      },
+      {
+        "file": "www/svg/checkmark-circle-sharp.svg",
+        "hash": "6788260974642398255"
+      },
+      {
+        "file": "www/svg/checkmark-circle.svg",
+        "hash": "6030254309897613448"
+      },
+      {
+        "file": "www/svg/checkmark-done-circle-outline.svg",
+        "hash": "5200179387429931263"
+      },
+      {
+        "file": "www/svg/checkmark-done-circle-sharp.svg",
+        "hash": "10658293156658324348"
+      },
+      {
+        "file": "www/svg/checkmark-done-circle.svg",
+        "hash": "455228643583990882"
+      },
+      {
+        "file": "www/svg/checkmark-done-outline.svg",
+        "hash": "18075506989246865439"
+      },
+      {
+        "file": "www/svg/checkmark-done-sharp.svg",
+        "hash": "10847608805418947575"
+      },
+      {
+        "file": "www/svg/checkmark-done.svg",
+        "hash": "18075506989246865439"
+      },
+      {
+        "file": "www/svg/checkmark-outline.svg",
+        "hash": "12837402136530713301"
+      },
+      {
+        "file": "www/svg/checkmark-sharp.svg",
+        "hash": "7451687432977935183"
+      },
+      {
+        "file": "www/svg/checkmark.svg",
+        "hash": "12837402136530713301"
+      },
+      {
+        "file": "www/svg/chevron-back-circle-outline.svg",
+        "hash": "9220718289914865084"
+      },
+      {
+        "file": "www/svg/chevron-back-circle-sharp.svg",
+        "hash": "5710292873249972628"
+      },
+      {
+        "file": "www/svg/chevron-back-circle.svg",
+        "hash": "12517683880472915540"
+      },
+      {
+        "file": "www/svg/chevron-back-outline.svg",
+        "hash": "7262667170361356781"
+      },
+      {
+        "file": "www/svg/chevron-back-sharp.svg",
+        "hash": "5746748731285923282"
+      },
+      {
+        "file": "www/svg/chevron-back.svg",
+        "hash": "7262667170361356781"
+      },
+      {
+        "file": "www/svg/chevron-collapse-outline.svg",
+        "hash": "7327971152400741382"
+      },
+      {
+        "file": "www/svg/chevron-collapse-sharp.svg",
+        "hash": "6526462293082380704"
+      },
+      {
+        "file": "www/svg/chevron-collapse.svg",
+        "hash": "4228588499079757522"
+      },
+      {
+        "file": "www/svg/chevron-down-circle-outline.svg",
+        "hash": "13602274749009633585"
+      },
+      {
+        "file": "www/svg/chevron-down-circle-sharp.svg",
+        "hash": "5784150588284885408"
+      },
+      {
+        "file": "www/svg/chevron-down-circle.svg",
+        "hash": "6109611112882933340"
+      },
+      {
+        "file": "www/svg/chevron-down-outline.svg",
+        "hash": "15906523954784053053"
+      },
+      {
+        "file": "www/svg/chevron-down-sharp.svg",
+        "hash": "7858208522075175002"
+      },
+      {
+        "file": "www/svg/chevron-down.svg",
+        "hash": "15906523954784053053"
+      },
+      {
+        "file": "www/svg/chevron-expand-outline.svg",
+        "hash": "5414285943561634959"
+      },
+      {
+        "file": "www/svg/chevron-expand-sharp.svg",
+        "hash": "7223683460978825696"
+      },
+      {
+        "file": "www/svg/chevron-expand.svg",
+        "hash": "1618900979599770573"
+      },
+      {
+        "file": "www/svg/chevron-forward-circle-outline.svg",
+        "hash": "10545890331898673492"
+      },
+      {
+        "file": "www/svg/chevron-forward-circle-sharp.svg",
+        "hash": "8332976924471725821"
+      },
+      {
+        "file": "www/svg/chevron-forward-circle.svg",
+        "hash": "3925081791377933459"
+      },
+      {
+        "file": "www/svg/chevron-forward-outline.svg",
+        "hash": "4773913299725612443"
+      },
+      {
+        "file": "www/svg/chevron-forward-sharp.svg",
+        "hash": "7301210219383260195"
+      },
+      {
+        "file": "www/svg/chevron-forward.svg",
+        "hash": "4773913299725612443"
+      },
+      {
+        "file": "www/svg/chevron-up-circle-outline.svg",
+        "hash": "13556948873232300540"
+      },
+      {
+        "file": "www/svg/chevron-up-circle-sharp.svg",
+        "hash": "123036898680998264"
+      },
+      {
+        "file": "www/svg/chevron-up-circle.svg",
+        "hash": "3007703966702131647"
+      },
+      {
+        "file": "www/svg/chevron-up-outline.svg",
+        "hash": "2277945605256138442"
+      },
+      {
+        "file": "www/svg/chevron-up-sharp.svg",
+        "hash": "4756229013601514321"
+      },
+      {
+        "file": "www/svg/chevron-up.svg",
+        "hash": "2277945605256138442"
+      },
+      {
+        "file": "www/svg/clipboard-outline.svg",
+        "hash": "11892706571154632585"
+      },
+      {
+        "file": "www/svg/clipboard-sharp.svg",
+        "hash": "12320429864893412446"
+      },
+      {
+        "file": "www/svg/clipboard.svg",
+        "hash": "16947972212257179529"
+      },
+      {
+        "file": "www/svg/close-circle-outline.svg",
+        "hash": "3951780703312294296"
+      },
+      {
+        "file": "www/svg/close-circle-sharp.svg",
+        "hash": "1481239987569981096"
+      },
+      {
+        "file": "www/svg/close-circle.svg",
+        "hash": "10367813398107177030"
+      },
+      {
+        "file": "www/svg/close-outline.svg",
+        "hash": "1897305745652211304"
+      },
+      {
+        "file": "www/svg/close-sharp.svg",
+        "hash": "11034206032918991877"
+      },
+      {
+        "file": "www/svg/close.svg",
+        "hash": "4100437663218929237"
+      },
+      {
+        "file": "www/svg/cloud-circle-outline.svg",
+        "hash": "5446423023947500115"
+      },
+      {
+        "file": "www/svg/cloud-circle-sharp.svg",
+        "hash": "10500814703182832424"
+      },
+      {
+        "file": "www/svg/cloud-circle.svg",
+        "hash": "8341058942849029593"
+      },
+      {
+        "file": "www/svg/cloud-done-outline.svg",
+        "hash": "10727547440516140901"
+      },
+      {
+        "file": "www/svg/cloud-done-sharp.svg",
+        "hash": "1299724031883897547"
+      },
+      {
+        "file": "www/svg/cloud-done.svg",
+        "hash": "8671138362860993998"
+      },
+      {
+        "file": "www/svg/cloud-download-outline.svg",
+        "hash": "5897192217770986921"
+      },
+      {
+        "file": "www/svg/cloud-download-sharp.svg",
+        "hash": "18173735682938147053"
+      },
+      {
+        "file": "www/svg/cloud-download.svg",
+        "hash": "6077762274999018084"
+      },
+      {
+        "file": "www/svg/cloud-offline-outline.svg",
+        "hash": "10901566750899288966"
+      },
+      {
+        "file": "www/svg/cloud-offline-sharp.svg",
+        "hash": "14339854558592950821"
+      },
+      {
+        "file": "www/svg/cloud-offline.svg",
+        "hash": "4041539854316603525"
+      },
+      {
+        "file": "www/svg/cloud-outline.svg",
+        "hash": "1319587721501785602"
+      },
+      {
+        "file": "www/svg/cloud-sharp.svg",
+        "hash": "13848550449272414686"
+      },
+      {
+        "file": "www/svg/cloud-upload-outline.svg",
+        "hash": "8876355275573480473"
+      },
+      {
+        "file": "www/svg/cloud-upload-sharp.svg",
+        "hash": "13807973779507504873"
+      },
+      {
+        "file": "www/svg/cloud-upload.svg",
+        "hash": "10361372563820910471"
+      },
+      {
+        "file": "www/svg/cloud.svg",
+        "hash": "15550733669377940424"
+      },
+      {
+        "file": "www/svg/cloudy-night-outline.svg",
+        "hash": "3876364477892773865"
+      },
+      {
+        "file": "www/svg/cloudy-night-sharp.svg",
+        "hash": "16715557274608891615"
+      },
+      {
+        "file": "www/svg/cloudy-night.svg",
+        "hash": "711965399742696590"
+      },
+      {
+        "file": "www/svg/cloudy-outline.svg",
+        "hash": "8842170369491740553"
+      },
+      {
+        "file": "www/svg/cloudy-sharp.svg",
+        "hash": "2046263707198957601"
+      },
+      {
+        "file": "www/svg/cloudy.svg",
+        "hash": "13280699956247671542"
+      },
+      {
+        "file": "www/svg/code-download-outline.svg",
+        "hash": "3391337718938454814"
+      },
+      {
+        "file": "www/svg/code-download-sharp.svg",
+        "hash": "15407560503865198056"
+      },
+      {
+        "file": "www/svg/code-download.svg",
+        "hash": "3152854775352698081"
+      },
+      {
+        "file": "www/svg/code-outline.svg",
+        "hash": "10005864799096397954"
+      },
+      {
+        "file": "www/svg/code-sharp.svg",
+        "hash": "8747981702324448225"
+      },
+      {
+        "file": "www/svg/code-slash-outline.svg",
+        "hash": "3846798370986062839"
+      },
+      {
+        "file": "www/svg/code-slash-sharp.svg",
+        "hash": "617976615630175052"
+      },
+      {
+        "file": "www/svg/code-slash.svg",
+        "hash": "8768863400075420746"
+      },
+      {
+        "file": "www/svg/code-working-outline.svg",
+        "hash": "16872632183881443539"
+      },
+      {
+        "file": "www/svg/code-working-sharp.svg",
+        "hash": "17942815900629094262"
+      },
+      {
+        "file": "www/svg/code-working.svg",
+        "hash": "8784507627459231105"
+      },
+      {
+        "file": "www/svg/code.svg",
+        "hash": "15824326705479356976"
+      },
+      {
+        "file": "www/svg/cog-outline.svg",
+        "hash": "452777553453966233"
+      },
+      {
+        "file": "www/svg/cog-sharp.svg",
+        "hash": "719677815585613817"
+      },
+      {
+        "file": "www/svg/cog.svg",
+        "hash": "10370244757877441225"
+      },
+      {
+        "file": "www/svg/color-fill-outline.svg",
+        "hash": "6760468055951346651"
+      },
+      {
+        "file": "www/svg/color-fill-sharp.svg",
+        "hash": "17557239693193972182"
+      },
+      {
+        "file": "www/svg/color-fill.svg",
+        "hash": "9880873870205776531"
+      },
+      {
+        "file": "www/svg/color-filter-outline.svg",
+        "hash": "6840007419199715211"
+      },
+      {
+        "file": "www/svg/color-filter-sharp.svg",
+        "hash": "16302921021868371927"
+      },
+      {
+        "file": "www/svg/color-filter.svg",
+        "hash": "9933404941407669540"
+      },
+      {
+        "file": "www/svg/color-palette-outline.svg",
+        "hash": "3174308814022791741"
+      },
+      {
+        "file": "www/svg/color-palette-sharp.svg",
+        "hash": "1872959526436500779"
+      },
+      {
+        "file": "www/svg/color-palette.svg",
+        "hash": "10374965783578409669"
+      },
+      {
+        "file": "www/svg/color-wand-outline.svg",
+        "hash": "12543954656827057587"
+      },
+      {
+        "file": "www/svg/color-wand-sharp.svg",
+        "hash": "14447234310231492379"
+      },
+      {
+        "file": "www/svg/color-wand.svg",
+        "hash": "14459589156537626272"
+      },
+      {
+        "file": "www/svg/compass-outline.svg",
+        "hash": "16128232063964242716"
+      },
+      {
+        "file": "www/svg/compass-sharp.svg",
+        "hash": "9899802881059098214"
+      },
+      {
+        "file": "www/svg/compass.svg",
+        "hash": "13551999821794708119"
+      },
+      {
+        "file": "www/svg/construct-outline.svg",
+        "hash": "16422516170009941392"
+      },
+      {
+        "file": "www/svg/construct-sharp.svg",
+        "hash": "13950576614858222252"
+      },
+      {
+        "file": "www/svg/construct.svg",
+        "hash": "6571297061724631459"
+      },
+      {
+        "file": "www/svg/contract-outline.svg",
+        "hash": "10585966037451453773"
+      },
+      {
+        "file": "www/svg/contract-sharp.svg",
+        "hash": "8143346870704803662"
+      },
+      {
+        "file": "www/svg/contract.svg",
+        "hash": "10585966037451453773"
+      },
+      {
+        "file": "www/svg/contrast-outline.svg",
+        "hash": "17387538639790098703"
+      },
+      {
+        "file": "www/svg/contrast-sharp.svg",
+        "hash": "7310393632143107486"
+      },
+      {
+        "file": "www/svg/contrast.svg",
+        "hash": "16399642643681699270"
+      },
+      {
+        "file": "www/svg/copy-outline.svg",
+        "hash": "9807275577757800726"
+      },
+      {
+        "file": "www/svg/copy-sharp.svg",
+        "hash": "15623935866360495312"
+      },
+      {
+        "file": "www/svg/copy.svg",
+        "hash": "423806348031120301"
+      },
+      {
+        "file": "www/svg/create-outline.svg",
+        "hash": "11644129569209412857"
+      },
+      {
+        "file": "www/svg/create-sharp.svg",
+        "hash": "16405474914491891587"
+      },
+      {
+        "file": "www/svg/create.svg",
+        "hash": "5586740645279481895"
+      },
+      {
+        "file": "www/svg/crop-outline.svg",
+        "hash": "4801299278752126725"
+      },
+      {
+        "file": "www/svg/crop-sharp.svg",
+        "hash": "3595308581346114313"
+      },
+      {
+        "file": "www/svg/crop.svg",
+        "hash": "15772425979499575473"
+      },
+      {
+        "file": "www/svg/cube-outline.svg",
+        "hash": "5611203957593940627"
+      },
+      {
+        "file": "www/svg/cube-sharp.svg",
+        "hash": "7428672303886255098"
+      },
+      {
+        "file": "www/svg/cube.svg",
+        "hash": "13338588559437342477"
+      },
+      {
+        "file": "www/svg/cut-outline.svg",
+        "hash": "2324430135966230345"
+      },
+      {
+        "file": "www/svg/cut-sharp.svg",
+        "hash": "14850147396010875666"
+      },
+      {
+        "file": "www/svg/cut.svg",
+        "hash": "15208749634874558059"
+      },
+      {
+        "file": "www/svg/desktop-outline.svg",
+        "hash": "8304764032576458623"
+      },
+      {
+        "file": "www/svg/desktop-sharp.svg",
+        "hash": "18058284985723431878"
+      },
+      {
+        "file": "www/svg/desktop.svg",
+        "hash": "16836480277269490062"
+      },
+      {
+        "file": "www/svg/diamond-outline.svg",
+        "hash": "7124429786477911255"
+      },
+      {
+        "file": "www/svg/diamond-sharp.svg",
+        "hash": "6367259708590412724"
+      },
+      {
+        "file": "www/svg/diamond.svg",
+        "hash": "984530354346854986"
+      },
+      {
+        "file": "www/svg/dice-outline.svg",
+        "hash": "12310813818174968478"
+      },
+      {
+        "file": "www/svg/dice-sharp.svg",
+        "hash": "18033693974332228227"
+      },
+      {
+        "file": "www/svg/dice.svg",
+        "hash": "15340412015363738771"
+      },
+      {
+        "file": "www/svg/disc-outline.svg",
+        "hash": "11226867266329412139"
+      },
+      {
+        "file": "www/svg/disc-sharp.svg",
+        "hash": "14981433325151162647"
+      },
+      {
+        "file": "www/svg/disc.svg",
+        "hash": "13985360534423511591"
+      },
+      {
+        "file": "www/svg/document-attach-outline.svg",
+        "hash": "13477143862040167871"
+      },
+      {
+        "file": "www/svg/document-attach-sharp.svg",
+        "hash": "4282479854558001560"
+      },
+      {
+        "file": "www/svg/document-attach.svg",
+        "hash": "12188796182154502051"
+      },
+      {
+        "file": "www/svg/document-lock-outline.svg",
+        "hash": "9563158820322362028"
+      },
+      {
+        "file": "www/svg/document-lock-sharp.svg",
+        "hash": "8611207324690742621"
+      },
+      {
+        "file": "www/svg/document-lock.svg",
+        "hash": "17172645100273479352"
+      },
+      {
+        "file": "www/svg/document-outline.svg",
+        "hash": "1748823152057120253"
+      },
+      {
+        "file": "www/svg/document-sharp.svg",
+        "hash": "2835459846087385740"
+      },
+      {
+        "file": "www/svg/document-text-outline.svg",
+        "hash": "7025015530475549180"
+      },
+      {
+        "file": "www/svg/document-text-sharp.svg",
+        "hash": "2230511593773936472"
+      },
+      {
+        "file": "www/svg/document-text.svg",
+        "hash": "11642040888367869997"
+      },
+      {
+        "file": "www/svg/document.svg",
+        "hash": "2174879267273843007"
+      },
+      {
+        "file": "www/svg/documents-outline.svg",
+        "hash": "1098597566455874265"
+      },
+      {
+        "file": "www/svg/documents-sharp.svg",
+        "hash": "18401415532954980270"
+      },
+      {
+        "file": "www/svg/documents.svg",
+        "hash": "11182899001361053817"
+      },
+      {
+        "file": "www/svg/download-outline.svg",
+        "hash": "2726112769879456697"
+      },
+      {
+        "file": "www/svg/download-sharp.svg",
+        "hash": "10081238180891843737"
+      },
+      {
+        "file": "www/svg/download.svg",
+        "hash": "15316325341552008979"
+      },
+      {
+        "file": "www/svg/duplicate-outline.svg",
+        "hash": "9240737419523551078"
+      },
+      {
+        "file": "www/svg/duplicate-sharp.svg",
+        "hash": "9958904750155021888"
+      },
+      {
+        "file": "www/svg/duplicate.svg",
+        "hash": "17552259718802006917"
+      },
+      {
+        "file": "www/svg/ear-outline.svg",
+        "hash": "1777921082723079448"
+      },
+      {
+        "file": "www/svg/ear-sharp.svg",
+        "hash": "4081390107942667307"
+      },
+      {
+        "file": "www/svg/ear.svg",
+        "hash": "2410456142763038539"
+      },
+      {
+        "file": "www/svg/earth-outline.svg",
+        "hash": "17168307496593794510"
+      },
+      {
+        "file": "www/svg/earth-sharp.svg",
+        "hash": "7060985081197452547"
+      },
+      {
+        "file": "www/svg/earth.svg",
+        "hash": "6411616548775648457"
+      },
+      {
+        "file": "www/svg/easel-outline.svg",
+        "hash": "5477834763205689440"
+      },
+      {
+        "file": "www/svg/easel-sharp.svg",
+        "hash": "2158413327892867975"
+      },
+      {
+        "file": "www/svg/easel.svg",
+        "hash": "6572153977520650147"
+      },
+      {
+        "file": "www/svg/egg-outline.svg",
+        "hash": "6335337601396389725"
+      },
+      {
+        "file": "www/svg/egg-sharp.svg",
+        "hash": "10087529802162461423"
+      },
+      {
+        "file": "www/svg/egg.svg",
+        "hash": "16411042351563396840"
+      },
+      {
+        "file": "www/svg/ellipse-outline.svg",
+        "hash": "832311446212687219"
+      },
+      {
+        "file": "www/svg/ellipse-sharp.svg",
+        "hash": "10205660709071040161"
+      },
+      {
+        "file": "www/svg/ellipse.svg",
+        "hash": "10205660709071040161"
+      },
+      {
+        "file": "www/svg/ellipsis-horizontal-circle-outline.svg",
+        "hash": "2225267031091785423"
+      },
+      {
+        "file": "www/svg/ellipsis-horizontal-circle-sharp.svg",
+        "hash": "13949869388242893088"
+      },
+      {
+        "file": "www/svg/ellipsis-horizontal-circle.svg",
+        "hash": "2225267031091785423"
+      },
+      {
+        "file": "www/svg/ellipsis-horizontal-outline.svg",
+        "hash": "3675856904402806234"
+      },
+      {
+        "file": "www/svg/ellipsis-horizontal-sharp.svg",
+        "hash": "13867663888041915881"
+      },
+      {
+        "file": "www/svg/ellipsis-horizontal.svg",
+        "hash": "13867663888041915881"
+      },
+      {
+        "file": "www/svg/ellipsis-vertical-circle-outline.svg",
+        "hash": "8462987121116483417"
+      },
+      {
+        "file": "www/svg/ellipsis-vertical-circle-sharp.svg",
+        "hash": "16700812841617472315"
+      },
+      {
+        "file": "www/svg/ellipsis-vertical-circle.svg",
+        "hash": "8462987121116483417"
+      },
+      {
+        "file": "www/svg/ellipsis-vertical-outline.svg",
+        "hash": "5763812282093569015"
+      },
+      {
+        "file": "www/svg/ellipsis-vertical-sharp.svg",
+        "hash": "2534070626946933073"
+      },
+      {
+        "file": "www/svg/ellipsis-vertical.svg",
+        "hash": "2534070626946933073"
+      },
+      {
+        "file": "www/svg/enter-outline.svg",
+        "hash": "13655725521452448054"
+      },
+      {
+        "file": "www/svg/enter-sharp.svg",
+        "hash": "12062750115001627499"
+      },
+      {
+        "file": "www/svg/enter.svg",
+        "hash": "13663804901742870477"
+      },
+      {
+        "file": "www/svg/exit-outline.svg",
+        "hash": "10746551085024695391"
+      },
+      {
+        "file": "www/svg/exit-sharp.svg",
+        "hash": "9216695857047086951"
+      },
+      {
+        "file": "www/svg/exit.svg",
+        "hash": "4979666011193922662"
+      },
+      {
+        "file": "www/svg/expand-outline.svg",
+        "hash": "6312248012088684503"
+      },
+      {
+        "file": "www/svg/expand-sharp.svg",
+        "hash": "11530904154967354013"
+      },
+      {
+        "file": "www/svg/expand.svg",
+        "hash": "6312248012088684503"
+      },
+      {
+        "file": "www/svg/extension-puzzle-outline.svg",
+        "hash": "12686001535971947070"
+      },
+      {
+        "file": "www/svg/extension-puzzle-sharp.svg",
+        "hash": "863069960414721414"
+      },
+      {
+        "file": "www/svg/extension-puzzle.svg",
+        "hash": "9857694426756506966"
+      },
+      {
+        "file": "www/svg/eye-off-outline.svg",
+        "hash": "5267884369080685029"
+      },
+      {
+        "file": "www/svg/eye-off-sharp.svg",
+        "hash": "3623118432678768188"
+      },
+      {
+        "file": "www/svg/eye-off.svg",
+        "hash": "2356979392791781564"
+      },
+      {
+        "file": "www/svg/eye-outline.svg",
+        "hash": "6670842874902282559"
+      },
+      {
+        "file": "www/svg/eye-sharp.svg",
+        "hash": "13269384276897816401"
+      },
+      {
+        "file": "www/svg/eye.svg",
+        "hash": "4728788589929101945"
+      },
+      {
+        "file": "www/svg/eyedrop-outline.svg",
+        "hash": "3766596958614249256"
+      },
+      {
+        "file": "www/svg/eyedrop-sharp.svg",
+        "hash": "8569786801450261955"
+      },
+      {
+        "file": "www/svg/eyedrop.svg",
+        "hash": "626076000410684831"
+      },
+      {
+        "file": "www/svg/fast-food-outline.svg",
+        "hash": "16541075042601684497"
+      },
+      {
+        "file": "www/svg/fast-food-sharp.svg",
+        "hash": "12249939113893022297"
+      },
+      {
+        "file": "www/svg/fast-food.svg",
+        "hash": "10896702114874157168"
+      },
+      {
+        "file": "www/svg/female-outline.svg",
+        "hash": "11954846158632572974"
+      },
+      {
+        "file": "www/svg/female-sharp.svg",
+        "hash": "15060813770679023432"
+      },
+      {
+        "file": "www/svg/female.svg",
+        "hash": "3939560762897801166"
+      },
+      {
+        "file": "www/svg/file-tray-full-outline.svg",
+        "hash": "11846053372765674648"
+      },
+      {
+        "file": "www/svg/file-tray-full-sharp.svg",
+        "hash": "7891083495462718598"
+      },
+      {
+        "file": "www/svg/file-tray-full.svg",
+        "hash": "15939518848380754904"
+      },
+      {
+        "file": "www/svg/file-tray-outline.svg",
+        "hash": "13308026195509023042"
+      },
+      {
+        "file": "www/svg/file-tray-sharp.svg",
+        "hash": "15163401543546012371"
+      },
+      {
+        "file": "www/svg/file-tray-stacked-outline.svg",
+        "hash": "15561198367384559688"
+      },
+      {
+        "file": "www/svg/file-tray-stacked-sharp.svg",
+        "hash": "9865126586221862667"
+      },
+      {
+        "file": "www/svg/file-tray-stacked.svg",
+        "hash": "17147918144975821446"
+      },
+      {
+        "file": "www/svg/file-tray.svg",
+        "hash": "14573338391727770378"
+      },
+      {
+        "file": "www/svg/film-outline.svg",
+        "hash": "264746541780871160"
+      },
+      {
+        "file": "www/svg/film-sharp.svg",
+        "hash": "602872254592310869"
+      },
+      {
+        "file": "www/svg/film.svg",
+        "hash": "6044279241129624636"
+      },
+      {
+        "file": "www/svg/filter-circle-outline.svg",
+        "hash": "7525275105354006355"
+      },
+      {
+        "file": "www/svg/filter-circle-sharp.svg",
+        "hash": "6681731745785760453"
+      },
+      {
+        "file": "www/svg/filter-circle.svg",
+        "hash": "14825112869437785197"
+      },
+      {
+        "file": "www/svg/filter-outline.svg",
+        "hash": "7376325175766027571"
+      },
+      {
+        "file": "www/svg/filter-sharp.svg",
+        "hash": "11125889366315101223"
+      },
+      {
+        "file": "www/svg/filter.svg",
+        "hash": "2323717009363011310"
+      },
+      {
+        "file": "www/svg/finger-print-outline.svg",
+        "hash": "12329411646061318566"
+      },
+      {
+        "file": "www/svg/finger-print-sharp.svg",
+        "hash": "7448627863717069419"
+      },
+      {
+        "file": "www/svg/finger-print.svg",
+        "hash": "893691663376702605"
+      },
+      {
+        "file": "www/svg/fish-outline.svg",
+        "hash": "13444901638445035753"
+      },
+      {
+        "file": "www/svg/fish-sharp.svg",
+        "hash": "1941139479952162777"
+      },
+      {
+        "file": "www/svg/fish.svg",
+        "hash": "2000297794891967152"
+      },
+      {
+        "file": "www/svg/fitness-outline.svg",
+        "hash": "571356997551644153"
+      },
+      {
+        "file": "www/svg/fitness-sharp.svg",
+        "hash": "13916690840412319502"
+      },
+      {
+        "file": "www/svg/fitness.svg",
+        "hash": "12518352255134072569"
+      },
+      {
+        "file": "www/svg/flag-outline.svg",
+        "hash": "10433035834428203313"
+      },
+      {
+        "file": "www/svg/flag-sharp.svg",
+        "hash": "9360327040089404460"
+      },
+      {
+        "file": "www/svg/flag.svg",
+        "hash": "520744834539812433"
+      },
+      {
+        "file": "www/svg/flame-outline.svg",
+        "hash": "6243201725681506816"
+      },
+      {
+        "file": "www/svg/flame-sharp.svg",
+        "hash": "11241154315891473416"
+      },
+      {
+        "file": "www/svg/flame.svg",
+        "hash": "409610639231924392"
+      },
+      {
+        "file": "www/svg/flash-off-outline.svg",
+        "hash": "11222358411301474823"
+      },
+      {
+        "file": "www/svg/flash-off-sharp.svg",
+        "hash": "11429409827667342485"
+      },
+      {
+        "file": "www/svg/flash-off.svg",
+        "hash": "45389773320746936"
+      },
+      {
+        "file": "www/svg/flash-outline.svg",
+        "hash": "3782637127611152416"
+      },
+      {
+        "file": "www/svg/flash-sharp.svg",
+        "hash": "11098013979426404289"
+      },
+      {
+        "file": "www/svg/flash.svg",
+        "hash": "1958385357010804248"
+      },
+      {
+        "file": "www/svg/flashlight-outline.svg",
+        "hash": "15675776696759262901"
+      },
+      {
+        "file": "www/svg/flashlight-sharp.svg",
+        "hash": "11024101545193098404"
+      },
+      {
+        "file": "www/svg/flashlight.svg",
+        "hash": "12098452206859368452"
+      },
+      {
+        "file": "www/svg/flask-outline.svg",
+        "hash": "10124646279619238058"
+      },
+      {
+        "file": "www/svg/flask-sharp.svg",
+        "hash": "3637553735863052125"
+      },
+      {
+        "file": "www/svg/flask.svg",
+        "hash": "7317270811741286396"
+      },
+      {
+        "file": "www/svg/flower-outline.svg",
+        "hash": "17036603842790373583"
+      },
+      {
+        "file": "www/svg/flower-sharp.svg",
+        "hash": "10806047987436105777"
+      },
+      {
+        "file": "www/svg/flower.svg",
+        "hash": "8695495130240883638"
+      },
+      {
+        "file": "www/svg/folder-open-outline.svg",
+        "hash": "16193873807591864819"
+      },
+      {
+        "file": "www/svg/folder-open-sharp.svg",
+        "hash": "218537311718528359"
+      },
+      {
+        "file": "www/svg/folder-open.svg",
+        "hash": "2413319135356298121"
+      },
+      {
+        "file": "www/svg/folder-outline.svg",
+        "hash": "16755814159720101868"
+      },
+      {
+        "file": "www/svg/folder-sharp.svg",
+        "hash": "14781651377558500586"
+      },
+      {
+        "file": "www/svg/folder.svg",
+        "hash": "3879510648118210574"
+      },
+      {
+        "file": "www/svg/football-outline.svg",
+        "hash": "8068367328004662143"
+      },
+      {
+        "file": "www/svg/football-sharp.svg",
+        "hash": "1035347067295024566"
+      },
+      {
+        "file": "www/svg/football.svg",
+        "hash": "8647589978668318845"
+      },
+      {
+        "file": "www/svg/footsteps-outline.svg",
+        "hash": "13205317429657434890"
+      },
+      {
+        "file": "www/svg/footsteps-sharp.svg",
+        "hash": "1536339679324979882"
+      },
+      {
+        "file": "www/svg/footsteps.svg",
+        "hash": "4362940521297400913"
+      },
+      {
+        "file": "www/svg/funnel-outline.svg",
+        "hash": "14403296626373113439"
+      },
+      {
+        "file": "www/svg/funnel-sharp.svg",
+        "hash": "15454529047771245970"
+      },
+      {
+        "file": "www/svg/funnel.svg",
+        "hash": "4394359022705486235"
+      },
+      {
+        "file": "www/svg/game-controller-outline.svg",
+        "hash": "2298416659775066560"
+      },
+      {
+        "file": "www/svg/game-controller-sharp.svg",
+        "hash": "11457381330252198582"
+      },
+      {
+        "file": "www/svg/game-controller.svg",
+        "hash": "15620405775887192916"
+      },
+      {
+        "file": "www/svg/gift-outline.svg",
+        "hash": "2562287515214048939"
+      },
+      {
+        "file": "www/svg/gift-sharp.svg",
+        "hash": "9252496771512234503"
+      },
+      {
+        "file": "www/svg/gift.svg",
+        "hash": "11704573321401278738"
+      },
+      {
+        "file": "www/svg/git-branch-outline.svg",
+        "hash": "6284205053368650061"
+      },
+      {
+        "file": "www/svg/git-branch-sharp.svg",
+        "hash": "13657259044020795718"
+      },
+      {
+        "file": "www/svg/git-branch.svg",
+        "hash": "12642771729428831671"
+      },
+      {
+        "file": "www/svg/git-commit-outline.svg",
+        "hash": "16366205616793213223"
+      },
+      {
+        "file": "www/svg/git-commit-sharp.svg",
+        "hash": "4578131023446954148"
+      },
+      {
+        "file": "www/svg/git-commit.svg",
+        "hash": "11700689847562366844"
+      },
+      {
+        "file": "www/svg/git-compare-outline.svg",
+        "hash": "17889418624416396362"
+      },
+      {
+        "file": "www/svg/git-compare-sharp.svg",
+        "hash": "6674915608935644487"
+      },
+      {
+        "file": "www/svg/git-compare.svg",
+        "hash": "10593181797797216653"
+      },
+      {
+        "file": "www/svg/git-merge-outline.svg",
+        "hash": "2073886254655297836"
+      },
+      {
+        "file": "www/svg/git-merge-sharp.svg",
+        "hash": "7146448843485299778"
+      },
+      {
+        "file": "www/svg/git-merge.svg",
+        "hash": "4437000731670519126"
+      },
+      {
+        "file": "www/svg/git-network-outline.svg",
+        "hash": "8407522727087939752"
+      },
+      {
+        "file": "www/svg/git-network-sharp.svg",
+        "hash": "14615350628779843173"
+      },
+      {
+        "file": "www/svg/git-network.svg",
+        "hash": "6956321121441643352"
+      },
+      {
+        "file": "www/svg/git-pull-request-outline.svg",
+        "hash": "5410588211608825371"
+      },
+      {
+        "file": "www/svg/git-pull-request-sharp.svg",
+        "hash": "14896700825619252199"
+      },
+      {
+        "file": "www/svg/git-pull-request.svg",
+        "hash": "2012647928175032825"
+      },
+      {
+        "file": "www/svg/glasses-outline.svg",
+        "hash": "6563173249117637648"
+      },
+      {
+        "file": "www/svg/glasses-sharp.svg",
+        "hash": "3725371045071132518"
+      },
+      {
+        "file": "www/svg/glasses.svg",
+        "hash": "17163555187077594805"
+      },
+      {
+        "file": "www/svg/globe-outline.svg",
+        "hash": "6924762144251464144"
+      },
+      {
+        "file": "www/svg/globe-sharp.svg",
+        "hash": "13338633067275340163"
+      },
+      {
+        "file": "www/svg/globe.svg",
+        "hash": "1815092665707223511"
+      },
+      {
+        "file": "www/svg/golf-outline.svg",
+        "hash": "10055148871889997101"
+      },
+      {
+        "file": "www/svg/golf-sharp.svg",
+        "hash": "17737452290322458622"
+      },
+      {
+        "file": "www/svg/golf.svg",
+        "hash": "13546023501018942403"
+      },
+      {
+        "file": "www/svg/grid-outline.svg",
+        "hash": "5021750276991029014"
+      },
+      {
+        "file": "www/svg/grid-sharp.svg",
+        "hash": "11087684621450645399"
+      },
+      {
+        "file": "www/svg/grid.svg",
+        "hash": "870668207060612325"
+      },
+      {
+        "file": "www/svg/hammer-outline.svg",
+        "hash": "11320636975793541492"
+      },
+      {
+        "file": "www/svg/hammer-sharp.svg",
+        "hash": "12158950269419982001"
+      },
+      {
+        "file": "www/svg/hammer.svg",
+        "hash": "5968486590373604226"
+      },
+      {
+        "file": "www/svg/hand-left-outline.svg",
+        "hash": "6004268632340589560"
+      },
+      {
+        "file": "www/svg/hand-left-sharp.svg",
+        "hash": "10871224942492364341"
+      },
+      {
+        "file": "www/svg/hand-left.svg",
+        "hash": "16820859665003532739"
+      },
+      {
+        "file": "www/svg/hand-right-outline.svg",
+        "hash": "6544882485937860774"
+      },
+      {
+        "file": "www/svg/hand-right-sharp.svg",
+        "hash": "13971908049711553605"
+      },
+      {
+        "file": "www/svg/hand-right.svg",
+        "hash": "16133148686272965785"
+      },
+      {
+        "file": "www/svg/happy-outline.svg",
+        "hash": "8277513488405844274"
+      },
+      {
+        "file": "www/svg/happy-sharp.svg",
+        "hash": "338697935223009906"
+      },
+      {
+        "file": "www/svg/happy.svg",
+        "hash": "14413795680905872904"
+      },
+      {
+        "file": "www/svg/hardware-chip-outline.svg",
+        "hash": "7411601851333505590"
+      },
+      {
+        "file": "www/svg/hardware-chip-sharp.svg",
+        "hash": "4532306716913895560"
+      },
+      {
+        "file": "www/svg/hardware-chip.svg",
+        "hash": "10416410058526133547"
+      },
+      {
+        "file": "www/svg/headset-outline.svg",
+        "hash": "200609675762455058"
+      },
+      {
+        "file": "www/svg/headset-sharp.svg",
+        "hash": "11462766939343311087"
+      },
+      {
+        "file": "www/svg/headset.svg",
+        "hash": "8083559061468805472"
+      },
+      {
+        "file": "www/svg/heart-circle-outline.svg",
+        "hash": "6451935030651883833"
+      },
+      {
+        "file": "www/svg/heart-circle-sharp.svg",
+        "hash": "691064786635601727"
+      },
+      {
+        "file": "www/svg/heart-circle.svg",
+        "hash": "3878334983935749015"
+      },
+      {
+        "file": "www/svg/heart-dislike-circle-outline.svg",
+        "hash": "815997041326074821"
+      },
+      {
+        "file": "www/svg/heart-dislike-circle-sharp.svg",
+        "hash": "9701616274435031271"
+      },
+      {
+        "file": "www/svg/heart-dislike-circle.svg",
+        "hash": "15575077778405668515"
+      },
+      {
+        "file": "www/svg/heart-dislike-outline.svg",
+        "hash": "5653866260587868387"
+      },
+      {
+        "file": "www/svg/heart-dislike-sharp.svg",
+        "hash": "6292456287379141865"
+      },
+      {
+        "file": "www/svg/heart-dislike.svg",
+        "hash": "16808922101416373228"
+      },
+      {
+        "file": "www/svg/heart-half-outline.svg",
+        "hash": "12975028630225886794"
+      },
+      {
+        "file": "www/svg/heart-half-sharp.svg",
+        "hash": "3621625531574913756"
+      },
+      {
+        "file": "www/svg/heart-half.svg",
+        "hash": "12975028630225886794"
+      },
+      {
+        "file": "www/svg/heart-outline.svg",
+        "hash": "9228330967961610799"
+      },
+      {
+        "file": "www/svg/heart-sharp.svg",
+        "hash": "6881390098972813365"
+      },
+      {
+        "file": "www/svg/heart.svg",
+        "hash": "10747365518507281986"
+      },
+      {
+        "file": "www/svg/help-buoy-outline.svg",
+        "hash": "236194758054695732"
+      },
+      {
+        "file": "www/svg/help-buoy-sharp.svg",
+        "hash": "2708357333095771637"
+      },
+      {
+        "file": "www/svg/help-buoy.svg",
+        "hash": "14011084408783240024"
+      },
+      {
+        "file": "www/svg/help-circle-outline.svg",
+        "hash": "7318161802850473306"
+      },
+      {
+        "file": "www/svg/help-circle-sharp.svg",
+        "hash": "5027674545135244185"
+      },
+      {
+        "file": "www/svg/help-circle.svg",
+        "hash": "14349410351130556767"
+      },
+      {
+        "file": "www/svg/help-outline.svg",
+        "hash": "11039819499770810045"
+      },
+      {
+        "file": "www/svg/help-sharp.svg",
+        "hash": "14851845004524202454"
+      },
+      {
+        "file": "www/svg/help.svg",
+        "hash": "11039819499770810045"
+      },
+      {
+        "file": "www/svg/home-outline.svg",
+        "hash": "12863525606535566910"
+      },
+      {
+        "file": "www/svg/home-sharp.svg",
+        "hash": "4262874449943744411"
+      },
+      {
+        "file": "www/svg/home.svg",
+        "hash": "13024468114310553532"
+      },
+      {
+        "file": "www/svg/hourglass-outline.svg",
+        "hash": "11301040197923669540"
+      },
+      {
+        "file": "www/svg/hourglass-sharp.svg",
+        "hash": "5596355988860805680"
+      },
+      {
+        "file": "www/svg/hourglass.svg",
+        "hash": "11684335120610057791"
+      },
+      {
+        "file": "www/svg/ice-cream-outline.svg",
+        "hash": "7254192264859593126"
+      },
+      {
+        "file": "www/svg/ice-cream-sharp.svg",
+        "hash": "11016848843690263922"
+      },
+      {
+        "file": "www/svg/ice-cream.svg",
+        "hash": "5063161415057016185"
+      },
+      {
+        "file": "www/svg/id-card-outline.svg",
+        "hash": "2464777293203425754"
+      },
+      {
+        "file": "www/svg/id-card-sharp.svg",
+        "hash": "6689772696969452427"
+      },
+      {
+        "file": "www/svg/id-card.svg",
+        "hash": "18208626788641788356"
+      },
+      {
+        "file": "www/svg/image-outline.svg",
+        "hash": "6943193778609028048"
+      },
+      {
+        "file": "www/svg/image-sharp.svg",
+        "hash": "6431999561705940046"
+      },
+      {
+        "file": "www/svg/image.svg",
+        "hash": "643364246203074050"
+      },
+      {
+        "file": "www/svg/images-outline.svg",
+        "hash": "11674618667674826992"
+      },
+      {
+        "file": "www/svg/images-sharp.svg",
+        "hash": "7266622114087301447"
+      },
+      {
+        "file": "www/svg/images.svg",
+        "hash": "8102428149127104382"
+      },
+      {
+        "file": "www/svg/infinite-outline.svg",
+        "hash": "3087809479929204185"
+      },
+      {
+        "file": "www/svg/infinite-sharp.svg",
+        "hash": "2009609193536738638"
+      },
+      {
+        "file": "www/svg/infinite.svg",
+        "hash": "16654770289216034194"
+      },
+      {
+        "file": "www/svg/information-circle-outline.svg",
+        "hash": "13020388222663827758"
+      },
+      {
+        "file": "www/svg/information-circle-sharp.svg",
+        "hash": "12784943832662378895"
+      },
+      {
+        "file": "www/svg/information-circle.svg",
+        "hash": "5632484576780073375"
+      },
+      {
+        "file": "www/svg/information-outline.svg",
+        "hash": "13911257239964426577"
+      },
+      {
+        "file": "www/svg/information-sharp.svg",
+        "hash": "12684964424173817502"
+      },
+      {
+        "file": "www/svg/information.svg",
+        "hash": "13911257239964426577"
+      },
+      {
+        "file": "www/svg/invert-mode-outline.svg",
+        "hash": "5848640085361745538"
+      },
+      {
+        "file": "www/svg/invert-mode-sharp.svg",
+        "hash": "10822891265911172376"
+      },
+      {
+        "file": "www/svg/invert-mode.svg",
+        "hash": "3954824174437658174"
+      },
+      {
+        "file": "www/svg/journal-outline.svg",
+        "hash": "11210669518217361980"
+      },
+      {
+        "file": "www/svg/journal-sharp.svg",
+        "hash": "16061901694278295165"
+      },
+      {
+        "file": "www/svg/journal.svg",
+        "hash": "3159108427797931214"
+      },
+      {
+        "file": "www/svg/key-outline.svg",
+        "hash": "2918173450862472917"
+      },
+      {
+        "file": "www/svg/key-sharp.svg",
+        "hash": "7768249652417533495"
+      },
+      {
+        "file": "www/svg/key.svg",
+        "hash": "3355623310560869265"
+      },
+      {
+        "file": "www/svg/keypad-outline.svg",
+        "hash": "16271550529150777147"
+      },
+      {
+        "file": "www/svg/keypad-sharp.svg",
+        "hash": "512593631641032593"
+      },
+      {
+        "file": "www/svg/keypad.svg",
+        "hash": "18020708656957709656"
+      },
+      {
+        "file": "www/svg/language-outline.svg",
+        "hash": "11341572307036991446"
+      },
+      {
+        "file": "www/svg/language-sharp.svg",
+        "hash": "12946128786546664263"
+      },
+      {
+        "file": "www/svg/language.svg",
+        "hash": "8801914824372400477"
+      },
+      {
+        "file": "www/svg/laptop-outline.svg",
+        "hash": "1700343471502909716"
+      },
+      {
+        "file": "www/svg/laptop-sharp.svg",
+        "hash": "1694048862027591356"
+      },
+      {
+        "file": "www/svg/laptop.svg",
+        "hash": "7741922376223362316"
+      },
+      {
+        "file": "www/svg/layers-outline.svg",
+        "hash": "1141906623656999878"
+      },
+      {
+        "file": "www/svg/layers-sharp.svg",
+        "hash": "3301365407956041176"
+      },
+      {
+        "file": "www/svg/layers.svg",
+        "hash": "13518068789764444461"
+      },
+      {
+        "file": "www/svg/leaf-outline.svg",
+        "hash": "12423767837766932946"
+      },
+      {
+        "file": "www/svg/leaf-sharp.svg",
+        "hash": "9138307074926828430"
+      },
+      {
+        "file": "www/svg/leaf.svg",
+        "hash": "8049914143239053347"
+      },
+      {
+        "file": "www/svg/library-outline.svg",
+        "hash": "14633714251329978577"
+      },
+      {
+        "file": "www/svg/library-sharp.svg",
+        "hash": "16407963910007233071"
+      },
+      {
+        "file": "www/svg/library.svg",
+        "hash": "166511871328707411"
+      },
+      {
+        "file": "www/svg/link-outline.svg",
+        "hash": "6231291538527961255"
+      },
+      {
+        "file": "www/svg/link-sharp.svg",
+        "hash": "3232930049684474544"
+      },
+      {
+        "file": "www/svg/link.svg",
+        "hash": "16229562638706741761"
+      },
+      {
+        "file": "www/svg/list-circle-outline.svg",
+        "hash": "13677900446570000977"
+      },
+      {
+        "file": "www/svg/list-circle-sharp.svg",
+        "hash": "6253550158547235405"
+      },
+      {
+        "file": "www/svg/list-circle.svg",
+        "hash": "3150399011631055539"
+      },
+      {
+        "file": "www/svg/list-outline.svg",
+        "hash": "12373013426346557744"
+      },
+      {
+        "file": "www/svg/list-sharp.svg",
+        "hash": "2087905737830669641"
+      },
+      {
+        "file": "www/svg/list.svg",
+        "hash": "15358025721476950001"
+      },
+      {
+        "file": "www/svg/locate-outline.svg",
+        "hash": "6854847801561674372"
+      },
+      {
+        "file": "www/svg/locate-sharp.svg",
+        "hash": "8448520449680780416"
+      },
+      {
+        "file": "www/svg/locate.svg",
+        "hash": "8280226447162203763"
+      },
+      {
+        "file": "www/svg/location-outline.svg",
+        "hash": "16013385986044962362"
+      },
+      {
+        "file": "www/svg/location-sharp.svg",
+        "hash": "7968228414302376164"
+      },
+      {
+        "file": "www/svg/location.svg",
+        "hash": "4078688824972311714"
+      },
+      {
+        "file": "www/svg/lock-closed-outline.svg",
+        "hash": "715245675392978240"
+      },
+      {
+        "file": "www/svg/lock-closed-sharp.svg",
+        "hash": "17543779642490881894"
+      },
+      {
+        "file": "www/svg/lock-closed.svg",
+        "hash": "9114502838023950143"
+      },
+      {
+        "file": "www/svg/lock-open-outline.svg",
+        "hash": "3551619101110883332"
+      },
+      {
+        "file": "www/svg/lock-open-sharp.svg",
+        "hash": "15423913223557415937"
+      },
+      {
+        "file": "www/svg/lock-open.svg",
+        "hash": "10699635417910517539"
+      },
+      {
+        "file": "www/svg/log-in-outline.svg",
+        "hash": "12378431481883631106"
+      },
+      {
+        "file": "www/svg/log-in-sharp.svg",
+        "hash": "17597725391573800236"
+      },
+      {
+        "file": "www/svg/log-in.svg",
+        "hash": "8312341643846558429"
+      },
+      {
+        "file": "www/svg/log-out-outline.svg",
+        "hash": "1644597234514875919"
+      },
+      {
+        "file": "www/svg/log-out-sharp.svg",
+        "hash": "12591640018460242762"
+      },
+      {
+        "file": "www/svg/log-out.svg",
+        "hash": "10547778301437714876"
+      },
+      {
+        "file": "www/svg/logo-alipay.svg",
+        "hash": "6915878524943287040"
+      },
+      {
+        "file": "www/svg/logo-amazon.svg",
+        "hash": "9862625328439432360"
+      },
+      {
+        "file": "www/svg/logo-amplify.svg",
+        "hash": "15705933809307110211"
+      },
+      {
+        "file": "www/svg/logo-android.svg",
+        "hash": "503378130535178038"
+      },
+      {
+        "file": "www/svg/logo-angular.svg",
+        "hash": "13624815871897473445"
+      },
+      {
+        "file": "www/svg/logo-apple-appstore.svg",
+        "hash": "14429448835538100954"
+      },
+      {
+        "file": "www/svg/logo-apple-ar.svg",
+        "hash": "16248143618996199974"
+      },
+      {
+        "file": "www/svg/logo-apple.svg",
+        "hash": "1067738845423937826"
+      },
+      {
+        "file": "www/svg/logo-behance.svg",
+        "hash": "4442803416822768587"
+      },
+      {
+        "file": "www/svg/logo-bitbucket.svg",
+        "hash": "4510475824672056526"
+      },
+      {
+        "file": "www/svg/logo-bitcoin.svg",
+        "hash": "17282077094253448960"
+      },
+      {
+        "file": "www/svg/logo-buffer.svg",
+        "hash": "18395107845908676098"
+      },
+      {
+        "file": "www/svg/logo-capacitor.svg",
+        "hash": "13756445569947126422"
+      },
+      {
+        "file": "www/svg/logo-chrome.svg",
+        "hash": "4215071829918629593"
+      },
+      {
+        "file": "www/svg/logo-closed-captioning.svg",
+        "hash": "17753714642848008"
+      },
+      {
+        "file": "www/svg/logo-codepen.svg",
+        "hash": "3472200119765078790"
+      },
+      {
+        "file": "www/svg/logo-css3.svg",
+        "hash": "405390028204513026"
+      },
+      {
+        "file": "www/svg/logo-designernews.svg",
+        "hash": "10988010332053671248"
+      },
+      {
+        "file": "www/svg/logo-deviantart.svg",
+        "hash": "8221017785098318380"
+      },
+      {
+        "file": "www/svg/logo-discord.svg",
+        "hash": "10795783418319469358"
+      },
+      {
+        "file": "www/svg/logo-docker.svg",
+        "hash": "9656690288903968758"
+      },
+      {
+        "file": "www/svg/logo-dribbble.svg",
+        "hash": "13246062675764794793"
+      },
+      {
+        "file": "www/svg/logo-dropbox.svg",
+        "hash": "2549285268137668143"
+      },
+      {
+        "file": "www/svg/logo-edge.svg",
+        "hash": "15412916120727638583"
+      },
+      {
+        "file": "www/svg/logo-electron.svg",
+        "hash": "11729055013367395863"
+      },
+      {
+        "file": "www/svg/logo-euro.svg",
+        "hash": "4440588986105292080"
+      },
+      {
+        "file": "www/svg/logo-facebook.svg",
+        "hash": "9686657466398415877"
+      },
+      {
+        "file": "www/svg/logo-figma.svg",
+        "hash": "15690299515175757515"
+      },
+      {
+        "file": "www/svg/logo-firebase.svg",
+        "hash": "2952736307411479559"
+      },
+      {
+        "file": "www/svg/logo-firefox.svg",
+        "hash": "2117754588279623190"
+      },
+      {
+        "file": "www/svg/logo-flickr.svg",
+        "hash": "4297216887715383539"
+      },
+      {
+        "file": "www/svg/logo-foursquare.svg",
+        "hash": "11547300712934247718"
+      },
+      {
+        "file": "www/svg/logo-github.svg",
+        "hash": "6387392373744633058"
+      },
+      {
+        "file": "www/svg/logo-gitlab.svg",
+        "hash": "16440798504865829922"
+      },
+      {
+        "file": "www/svg/logo-google-playstore.svg",
+        "hash": "11966192955507800876"
+      },
+      {
+        "file": "www/svg/logo-google.svg",
+        "hash": "9764757834329156430"
+      },
+      {
+        "file": "www/svg/logo-hackernews.svg",
+        "hash": "760405202998223836"
+      },
+      {
+        "file": "www/svg/logo-html5.svg",
+        "hash": "11088171885880167285"
+      },
+      {
+        "file": "www/svg/logo-instagram.svg",
+        "hash": "17861537065841969792"
+      },
+      {
+        "file": "www/svg/logo-ionic.svg",
+        "hash": "12132210324297677682"
+      },
+      {
+        "file": "www/svg/logo-ionitron.svg",
+        "hash": "3993759920730685814"
+      },
+      {
+        "file": "www/svg/logo-javascript.svg",
+        "hash": "15107348916839511136"
+      },
+      {
+        "file": "www/svg/logo-laravel.svg",
+        "hash": "10776729023907242378"
+      },
+      {
+        "file": "www/svg/logo-linkedin.svg",
+        "hash": "4763848103103508865"
+      },
+      {
+        "file": "www/svg/logo-markdown.svg",
+        "hash": "5135478120198423996"
+      },
+      {
+        "file": "www/svg/logo-mastodon.svg",
+        "hash": "6553184452903934701"
+      },
+      {
+        "file": "www/svg/logo-medium.svg",
+        "hash": "15957901009558077593"
+      },
+      {
+        "file": "www/svg/logo-microsoft.svg",
+        "hash": "5747977831825819787"
+      },
+      {
+        "file": "www/svg/logo-no-smoking.svg",
+        "hash": "10960166006923124399"
+      },
+      {
+        "file": "www/svg/logo-nodejs.svg",
+        "hash": "14484461572137675005"
+      },
+      {
+        "file": "www/svg/logo-npm.svg",
+        "hash": "2320559582509684436"
+      },
+      {
+        "file": "www/svg/logo-octocat.svg",
+        "hash": "4924653486616079679"
+      },
+      {
+        "file": "www/svg/logo-paypal.svg",
+        "hash": "9402635494253739615"
+      },
+      {
+        "file": "www/svg/logo-pinterest.svg",
+        "hash": "2236446869052106984"
+      },
+      {
+        "file": "www/svg/logo-playstation.svg",
+        "hash": "1893424642767838458"
+      },
+      {
+        "file": "www/svg/logo-pwa.svg",
+        "hash": "15313196404942506174"
+      },
+      {
+        "file": "www/svg/logo-python.svg",
+        "hash": "10049355711295424344"
+      },
+      {
+        "file": "www/svg/logo-react.svg",
+        "hash": "5558841523574758059"
+      },
+      {
+        "file": "www/svg/logo-reddit.svg",
+        "hash": "8185482269634107926"
+      },
+      {
+        "file": "www/svg/logo-rss.svg",
+        "hash": "15684292984013323355"
+      },
+      {
+        "file": "www/svg/logo-sass.svg",
+        "hash": "10959643960300392519"
+      },
+      {
+        "file": "www/svg/logo-skype.svg",
+        "hash": "3932606754914527784"
+      },
+      {
+        "file": "www/svg/logo-slack.svg",
+        "hash": "17575753584165768392"
+      },
+      {
+        "file": "www/svg/logo-snapchat.svg",
+        "hash": "1943859496068792867"
+      },
+      {
+        "file": "www/svg/logo-soundcloud.svg",
+        "hash": "7103641626245659291"
+      },
+      {
+        "file": "www/svg/logo-stackoverflow.svg",
+        "hash": "15532648252275019105"
+      },
+      {
+        "file": "www/svg/logo-steam.svg",
+        "hash": "12843079434968894869"
+      },
+      {
+        "file": "www/svg/logo-stencil.svg",
+        "hash": "306893506865920377"
+      },
+      {
+        "file": "www/svg/logo-tableau.svg",
+        "hash": "2531121723797406568"
+      },
+      {
+        "file": "www/svg/logo-tiktok.svg",
+        "hash": "15636905504591419819"
+      },
+      {
+        "file": "www/svg/logo-tumblr.svg",
+        "hash": "85206706464848564"
+      },
+      {
+        "file": "www/svg/logo-tux.svg",
+        "hash": "3340136614823306724"
+      },
+      {
+        "file": "www/svg/logo-twitch.svg",
+        "hash": "10752159972619221016"
+      },
+      {
+        "file": "www/svg/logo-twitter.svg",
+        "hash": "3441061650696370803"
+      },
+      {
+        "file": "www/svg/logo-usd.svg",
+        "hash": "8250596525252551040"
+      },
+      {
+        "file": "www/svg/logo-venmo.svg",
+        "hash": "11033361533445755126"
+      },
+      {
+        "file": "www/svg/logo-vercel.svg",
+        "hash": "10380951626989866692"
+      },
+      {
+        "file": "www/svg/logo-vimeo.svg",
+        "hash": "15812847763397083215"
+      },
+      {
+        "file": "www/svg/logo-vk.svg",
+        "hash": "7394208236193981716"
+      },
+      {
+        "file": "www/svg/logo-vue.svg",
+        "hash": "14908825421797721099"
+      },
+      {
+        "file": "www/svg/logo-web-component.svg",
+        "hash": "7565049964217469819"
+      },
+      {
+        "file": "www/svg/logo-wechat.svg",
+        "hash": "15767758967499741766"
+      },
+      {
+        "file": "www/svg/logo-whatsapp.svg",
+        "hash": "6806289037384307852"
+      },
+      {
+        "file": "www/svg/logo-windows.svg",
+        "hash": "16177782834008608655"
+      },
+      {
+        "file": "www/svg/logo-wordpress.svg",
+        "hash": "13661987838834348589"
+      },
+      {
+        "file": "www/svg/logo-xbox.svg",
+        "hash": "8394981312635612474"
+      },
+      {
+        "file": "www/svg/logo-xing.svg",
+        "hash": "2409082214111423187"
+      },
+      {
+        "file": "www/svg/logo-yahoo.svg",
+        "hash": "13617938656688178279"
+      },
+      {
+        "file": "www/svg/logo-yen.svg",
+        "hash": "13832226444969142921"
+      },
+      {
+        "file": "www/svg/logo-youtube.svg",
+        "hash": "1284933518376469669"
+      },
+      {
+        "file": "www/svg/magnet-outline.svg",
+        "hash": "14372830515613202106"
+      },
+      {
+        "file": "www/svg/magnet-sharp.svg",
+        "hash": "14155439904891394815"
+      },
+      {
+        "file": "www/svg/magnet.svg",
+        "hash": "18407030783550453108"
+      },
+      {
+        "file": "www/svg/mail-open-outline.svg",
+        "hash": "12360948603486869225"
+      },
+      {
+        "file": "www/svg/mail-open-sharp.svg",
+        "hash": "14157184339033577132"
+      },
+      {
+        "file": "www/svg/mail-open.svg",
+        "hash": "3558465959181022950"
+      },
+      {
+        "file": "www/svg/mail-outline.svg",
+        "hash": "13860129683121225652"
+      },
+      {
+        "file": "www/svg/mail-sharp.svg",
+        "hash": "13908569067366856440"
+      },
+      {
+        "file": "www/svg/mail-unread-outline.svg",
+        "hash": "7308959320366755911"
+      },
+      {
+        "file": "www/svg/mail-unread-sharp.svg",
+        "hash": "14614475972477051751"
+      },
+      {
+        "file": "www/svg/mail-unread.svg",
+        "hash": "13521553771530323442"
+      },
+      {
+        "file": "www/svg/mail.svg",
+        "hash": "17248124336777817922"
+      },
+      {
+        "file": "www/svg/male-female-outline.svg",
+        "hash": "3572728433612045681"
+      },
+      {
+        "file": "www/svg/male-female-sharp.svg",
+        "hash": "3744806951797695067"
+      },
+      {
+        "file": "www/svg/male-female.svg",
+        "hash": "4050871712324662743"
+      },
+      {
+        "file": "www/svg/male-outline.svg",
+        "hash": "9282738206092571324"
+      },
+      {
+        "file": "www/svg/male-sharp.svg",
+        "hash": "1161718535259610508"
+      },
+      {
+        "file": "www/svg/male.svg",
+        "hash": "3209652996676245130"
+      },
+      {
+        "file": "www/svg/man-outline.svg",
+        "hash": "5323380026781862212"
+      },
+      {
+        "file": "www/svg/man-sharp.svg",
+        "hash": "15037416173832485025"
+      },
+      {
+        "file": "www/svg/man.svg",
+        "hash": "11579294066101417233"
+      },
+      {
+        "file": "www/svg/map-outline.svg",
+        "hash": "14714320926317309725"
+      },
+      {
+        "file": "www/svg/map-sharp.svg",
+        "hash": "13816876567943691221"
+      },
+      {
+        "file": "www/svg/map.svg",
+        "hash": "7185195327939098388"
+      },
+      {
+        "file": "www/svg/medal-outline.svg",
+        "hash": "9714937463561306859"
+      },
+      {
+        "file": "www/svg/medal-sharp.svg",
+        "hash": "18439357692031681550"
+      },
+      {
+        "file": "www/svg/medal.svg",
+        "hash": "3301377795732676352"
+      },
+      {
+        "file": "www/svg/medical-outline.svg",
+        "hash": "8308791258611456047"
+      },
+      {
+        "file": "www/svg/medical-sharp.svg",
+        "hash": "7470168023032877787"
+      },
+      {
+        "file": "www/svg/medical.svg",
+        "hash": "4175950208518931141"
+      },
+      {
+        "file": "www/svg/medkit-outline.svg",
+        "hash": "13986628319401703222"
+      },
+      {
+        "file": "www/svg/medkit-sharp.svg",
+        "hash": "15889336277763391118"
+      },
+      {
+        "file": "www/svg/medkit.svg",
+        "hash": "4919101435366670580"
+      },
+      {
+        "file": "www/svg/megaphone-outline.svg",
+        "hash": "2415102245626679027"
+      },
+      {
+        "file": "www/svg/megaphone-sharp.svg",
+        "hash": "9517864731089941856"
+      },
+      {
+        "file": "www/svg/megaphone.svg",
+        "hash": "15780975061847271359"
+      },
+      {
+        "file": "www/svg/menu-outline.svg",
+        "hash": "5143403626519659689"
+      },
+      {
+        "file": "www/svg/menu-sharp.svg",
+        "hash": "3199035022850725321"
+      },
+      {
+        "file": "www/svg/menu.svg",
+        "hash": "16035346277499696581"
+      },
+      {
+        "file": "www/svg/mic-circle-outline.svg",
+        "hash": "10103250430618589634"
+      },
+      {
+        "file": "www/svg/mic-circle-sharp.svg",
+        "hash": "17422038953534436125"
+      },
+      {
+        "file": "www/svg/mic-circle.svg",
+        "hash": "16538455860166388052"
+      },
+      {
+        "file": "www/svg/mic-off-circle-outline.svg",
+        "hash": "773642239492926573"
+      },
+      {
+        "file": "www/svg/mic-off-circle-sharp.svg",
+        "hash": "16662133606373894155"
+      },
+      {
+        "file": "www/svg/mic-off-circle.svg",
+        "hash": "4219921047223659733"
+      },
+      {
+        "file": "www/svg/mic-off-outline.svg",
+        "hash": "14438465056943547287"
+      },
+      {
+        "file": "www/svg/mic-off-sharp.svg",
+        "hash": "14681699149176255747"
+      },
+      {
+        "file": "www/svg/mic-off.svg",
+        "hash": "15995928866824792595"
+      },
+      {
+        "file": "www/svg/mic-outline.svg",
+        "hash": "7716160428229138175"
+      },
+      {
+        "file": "www/svg/mic-sharp.svg",
+        "hash": "12606866701937307367"
+      },
+      {
+        "file": "www/svg/mic.svg",
+        "hash": "13083039343563244738"
+      },
+      {
+        "file": "www/svg/moon-outline.svg",
+        "hash": "10572450113186977408"
+      },
+      {
+        "file": "www/svg/moon-sharp.svg",
+        "hash": "13741677814867187954"
+      },
+      {
+        "file": "www/svg/moon.svg",
+        "hash": "1606920818753803316"
+      },
+      {
+        "file": "www/svg/move-outline.svg",
+        "hash": "18087520606837403121"
+      },
+      {
+        "file": "www/svg/move-sharp.svg",
+        "hash": "10255292865354504087"
+      },
+      {
+        "file": "www/svg/move.svg",
+        "hash": "18087520606837403121"
+      },
+      {
+        "file": "www/svg/musical-note-outline.svg",
+        "hash": "3258797455676772249"
+      },
+      {
+        "file": "www/svg/musical-note-sharp.svg",
+        "hash": "343805750331121819"
+      },
+      {
+        "file": "www/svg/musical-note.svg",
+        "hash": "4810561078893586683"
+      },
+      {
+        "file": "www/svg/musical-notes-outline.svg",
+        "hash": "6601311814626637942"
+      },
+      {
+        "file": "www/svg/musical-notes-sharp.svg",
+        "hash": "199892271690210494"
+      },
+      {
+        "file": "www/svg/musical-notes.svg",
+        "hash": "2037938056474294855"
+      },
+      {
+        "file": "www/svg/navigate-circle-outline.svg",
+        "hash": "18032455986100875780"
+      },
+      {
+        "file": "www/svg/navigate-circle-sharp.svg",
+        "hash": "12373148438764190426"
+      },
+      {
+        "file": "www/svg/navigate-circle.svg",
+        "hash": "9167802437366582858"
+      },
+      {
+        "file": "www/svg/navigate-outline.svg",
+        "hash": "8505730835628837144"
+      },
+      {
+        "file": "www/svg/navigate-sharp.svg",
+        "hash": "15257425493077244712"
+      },
+      {
+        "file": "www/svg/navigate.svg",
+        "hash": "7845148061776270487"
+      },
+      {
+        "file": "www/svg/newspaper-outline.svg",
+        "hash": "5976838958258457058"
+      },
+      {
+        "file": "www/svg/newspaper-sharp.svg",
+        "hash": "14779150473015690591"
+      },
+      {
+        "file": "www/svg/newspaper.svg",
+        "hash": "3824635480510018147"
+      },
+      {
+        "file": "www/svg/notifications-circle-outline.svg",
+        "hash": "13383790361752957605"
+      },
+      {
+        "file": "www/svg/notifications-circle-sharp.svg",
+        "hash": "16581599447586902700"
+      },
+      {
+        "file": "www/svg/notifications-circle.svg",
+        "hash": "4312235741700367079"
+      },
+      {
+        "file": "www/svg/notifications-off-circle-outline.svg",
+        "hash": "15703863821136882773"
+      },
+      {
+        "file": "www/svg/notifications-off-circle-sharp.svg",
+        "hash": "17395577489950740505"
+      },
+      {
+        "file": "www/svg/notifications-off-circle.svg",
+        "hash": "3486210429168603984"
+      },
+      {
+        "file": "www/svg/notifications-off-outline.svg",
+        "hash": "9858980842802442915"
+      },
+      {
+        "file": "www/svg/notifications-off-sharp.svg",
+        "hash": "2255327104472605541"
+      },
+      {
+        "file": "www/svg/notifications-off.svg",
+        "hash": "8072828258355663114"
+      },
+      {
+        "file": "www/svg/notifications-outline.svg",
+        "hash": "5521296048245814770"
+      },
+      {
+        "file": "www/svg/notifications-sharp.svg",
+        "hash": "16189916114795031180"
+      },
+      {
+        "file": "www/svg/notifications.svg",
+        "hash": "1144783955960674446"
+      },
+      {
+        "file": "www/svg/nuclear-outline.svg",
+        "hash": "7966899485243804342"
+      },
+      {
+        "file": "www/svg/nuclear-sharp.svg",
+        "hash": "2566703069571903458"
+      },
+      {
+        "file": "www/svg/nuclear.svg",
+        "hash": "7756535380286237762"
+      },
+      {
+        "file": "www/svg/nutrition-outline.svg",
+        "hash": "3853846342456752837"
+      },
+      {
+        "file": "www/svg/nutrition-sharp.svg",
+        "hash": "12960936013605263688"
+      },
+      {
+        "file": "www/svg/nutrition.svg",
+        "hash": "11800922545434680143"
+      },
+      {
+        "file": "www/svg/open-outline.svg",
+        "hash": "13920209162901915247"
+      },
+      {
+        "file": "www/svg/open-sharp.svg",
+        "hash": "13926707743284460911"
+      },
+      {
+        "file": "www/svg/open.svg",
+        "hash": "4484730374726589739"
+      },
+      {
+        "file": "www/svg/options-outline.svg",
+        "hash": "5227533009111519856"
+      },
+      {
+        "file": "www/svg/options-sharp.svg",
+        "hash": "14870578517865589346"
+      },
+      {
+        "file": "www/svg/options.svg",
+        "hash": "14479554191947639813"
+      },
+      {
+        "file": "www/svg/paper-plane-outline.svg",
+        "hash": "167328571197774838"
+      },
+      {
+        "file": "www/svg/paper-plane-sharp.svg",
+        "hash": "10321886843547667752"
+      },
+      {
+        "file": "www/svg/paper-plane.svg",
+        "hash": "5191601892670413923"
+      },
+      {
+        "file": "www/svg/partly-sunny-outline.svg",
+        "hash": "2420385622058497686"
+      },
+      {
+        "file": "www/svg/partly-sunny-sharp.svg",
+        "hash": "8010035982146746097"
+      },
+      {
+        "file": "www/svg/partly-sunny.svg",
+        "hash": "9156069212568538484"
+      },
+      {
+        "file": "www/svg/pause-circle-outline.svg",
+        "hash": "450826211695596543"
+      },
+      {
+        "file": "www/svg/pause-circle-sharp.svg",
+        "hash": "9733449809369434631"
+      },
+      {
+        "file": "www/svg/pause-circle.svg",
+        "hash": "2282814187791248218"
+      },
+      {
+        "file": "www/svg/pause-outline.svg",
+        "hash": "11528099736917878834"
+      },
+      {
+        "file": "www/svg/pause-sharp.svg",
+        "hash": "4294364502505400775"
+      },
+      {
+        "file": "www/svg/pause.svg",
+        "hash": "11954024940757583995"
+      },
+      {
+        "file": "www/svg/paw-outline.svg",
+        "hash": "12703814183152866005"
+      },
+      {
+        "file": "www/svg/paw-sharp.svg",
+        "hash": "14091184612211217008"
+      },
+      {
+        "file": "www/svg/paw.svg",
+        "hash": "568035899416666026"
+      },
+      {
+        "file": "www/svg/pencil-outline.svg",
+        "hash": "1449426333281552242"
+      },
+      {
+        "file": "www/svg/pencil-sharp.svg",
+        "hash": "3614868376497421450"
+      },
+      {
+        "file": "www/svg/pencil.svg",
+        "hash": "13388868898998029303"
+      },
+      {
+        "file": "www/svg/people-circle-outline.svg",
+        "hash": "5566612279674837683"
+      },
+      {
+        "file": "www/svg/people-circle-sharp.svg",
+        "hash": "2809816257549114165"
+      },
+      {
+        "file": "www/svg/people-circle.svg",
+        "hash": "6207538840266712891"
+      },
+      {
+        "file": "www/svg/people-outline.svg",
+        "hash": "103124838048377897"
+      },
+      {
+        "file": "www/svg/people-sharp.svg",
+        "hash": "18184776961709370586"
+      },
+      {
+        "file": "www/svg/people.svg",
+        "hash": "12358869702748480811"
+      },
+      {
+        "file": "www/svg/person-add-outline.svg",
+        "hash": "13331211978436625905"
+      },
+      {
+        "file": "www/svg/person-add-sharp.svg",
+        "hash": "15731672416341836683"
+      },
+      {
+        "file": "www/svg/person-add.svg",
+        "hash": "18341473160481758082"
+      },
+      {
+        "file": "www/svg/person-circle-outline.svg",
+        "hash": "3234514312731158726"
+      },
+      {
+        "file": "www/svg/person-circle-sharp.svg",
+        "hash": "3970109825657476585"
+      },
+      {
+        "file": "www/svg/person-circle.svg",
+        "hash": "18253534006583491041"
+      },
+      {
+        "file": "www/svg/person-outline.svg",
+        "hash": "10538628496447632862"
+      },
+      {
+        "file": "www/svg/person-remove-outline.svg",
+        "hash": "356520957624109730"
+      },
+      {
+        "file": "www/svg/person-remove-sharp.svg",
+        "hash": "2473726005255930821"
+      },
+      {
+        "file": "www/svg/person-remove.svg",
+        "hash": "12075248542768479801"
+      },
+      {
+        "file": "www/svg/person-sharp.svg",
+        "hash": "4056016767113843765"
+      },
+      {
+        "file": "www/svg/person.svg",
+        "hash": "12756980779312265740"
+      },
+      {
+        "file": "www/svg/phone-landscape-outline.svg",
+        "hash": "16145992995567531255"
+      },
+      {
+        "file": "www/svg/phone-landscape-sharp.svg",
+        "hash": "8715131386295612420"
+      },
+      {
+        "file": "www/svg/phone-landscape.svg",
+        "hash": "7585450363764018871"
+      },
+      {
+        "file": "www/svg/phone-portrait-outline.svg",
+        "hash": "6311516111344809952"
+      },
+      {
+        "file": "www/svg/phone-portrait-sharp.svg",
+        "hash": "11826598436391134108"
+      },
+      {
+        "file": "www/svg/phone-portrait.svg",
+        "hash": "14097477296497412960"
+      },
+      {
+        "file": "www/svg/pie-chart-outline.svg",
+        "hash": "469156534788012918"
+      },
+      {
+        "file": "www/svg/pie-chart-sharp.svg",
+        "hash": "2760920297244078298"
+      },
+      {
+        "file": "www/svg/pie-chart.svg",
+        "hash": "1227955671418430182"
+      },
+      {
+        "file": "www/svg/pin-outline.svg",
+        "hash": "7289881995613406403"
+      },
+      {
+        "file": "www/svg/pin-sharp.svg",
+        "hash": "2674665289314826282"
+      },
+      {
+        "file": "www/svg/pin.svg",
+        "hash": "3696748175907650180"
+      },
+      {
+        "file": "www/svg/pint-outline.svg",
+        "hash": "16503113096581362946"
+      },
+      {
+        "file": "www/svg/pint-sharp.svg",
+        "hash": "5242847641834109284"
+      },
+      {
+        "file": "www/svg/pint.svg",
+        "hash": "17899277124752637758"
+      },
+      {
+        "file": "www/svg/pizza-outline.svg",
+        "hash": "11526939133817033095"
+      },
+      {
+        "file": "www/svg/pizza-sharp.svg",
+        "hash": "3736150161335908598"
+      },
+      {
+        "file": "www/svg/pizza.svg",
+        "hash": "4313805314313396435"
+      },
+      {
+        "file": "www/svg/planet-outline.svg",
+        "hash": "6588185916905228038"
+      },
+      {
+        "file": "www/svg/planet-sharp.svg",
+        "hash": "1247544286611096387"
+      },
+      {
+        "file": "www/svg/planet.svg",
+        "hash": "3876798640041961228"
+      },
+      {
+        "file": "www/svg/play-back-circle-outline.svg",
+        "hash": "5952113943194950918"
+      },
+      {
+        "file": "www/svg/play-back-circle-sharp.svg",
+        "hash": "4908681864488678787"
+      },
+      {
+        "file": "www/svg/play-back-circle.svg",
+        "hash": "8715747032015031741"
+      },
+      {
+        "file": "www/svg/play-back-outline.svg",
+        "hash": "7373919946746450614"
+      },
+      {
+        "file": "www/svg/play-back-sharp.svg",
+        "hash": "8162056324127641456"
+      },
+      {
+        "file": "www/svg/play-back.svg",
+        "hash": "8639889975968674667"
+      },
+      {
+        "file": "www/svg/play-circle-outline.svg",
+        "hash": "17873331935197288550"
+      },
+      {
+        "file": "www/svg/play-circle-sharp.svg",
+        "hash": "12276751537106010115"
+      },
+      {
+        "file": "www/svg/play-circle.svg",
+        "hash": "18052865985246985503"
+      },
+      {
+        "file": "www/svg/play-forward-circle-outline.svg",
+        "hash": "13989443880094120346"
+      },
+      {
+        "file": "www/svg/play-forward-circle-sharp.svg",
+        "hash": "16139086607281304251"
+      },
+      {
+        "file": "www/svg/play-forward-circle.svg",
+        "hash": "9195435061796166191"
+      },
+      {
+        "file": "www/svg/play-forward-outline.svg",
+        "hash": "357004149560173392"
+      },
+      {
+        "file": "www/svg/play-forward-sharp.svg",
+        "hash": "10385217685882608070"
+      },
+      {
+        "file": "www/svg/play-forward.svg",
+        "hash": "3113672878660537032"
+      },
+      {
+        "file": "www/svg/play-outline.svg",
+        "hash": "72784921104699920"
+      },
+      {
+        "file": "www/svg/play-sharp.svg",
+        "hash": "85052399608839800"
+      },
+      {
+        "file": "www/svg/play-skip-back-circle-outline.svg",
+        "hash": "51552744465968861"
+      },
+      {
+        "file": "www/svg/play-skip-back-circle-sharp.svg",
+        "hash": "6288331861141488328"
+      },
+      {
+        "file": "www/svg/play-skip-back-circle.svg",
+        "hash": "15553020849431748660"
+      },
+      {
+        "file": "www/svg/play-skip-back-outline.svg",
+        "hash": "7788371663118409795"
+      },
+      {
+        "file": "www/svg/play-skip-back-sharp.svg",
+        "hash": "5418864379775345409"
+      },
+      {
+        "file": "www/svg/play-skip-back.svg",
+        "hash": "14126177180910894532"
+      },
+      {
+        "file": "www/svg/play-skip-forward-circle-outline.svg",
+        "hash": "15670958308785291812"
+      },
+      {
+        "file": "www/svg/play-skip-forward-circle-sharp.svg",
+        "hash": "3999058938351981260"
+      },
+      {
+        "file": "www/svg/play-skip-forward-circle.svg",
+        "hash": "10650600126491517915"
+      },
+      {
+        "file": "www/svg/play-skip-forward-outline.svg",
+        "hash": "12212021054844210877"
+      },
+      {
+        "file": "www/svg/play-skip-forward-sharp.svg",
+        "hash": "9469091388104671190"
+      },
+      {
+        "file": "www/svg/play-skip-forward.svg",
+        "hash": "8797028703837126771"
+      },
+      {
+        "file": "www/svg/play.svg",
+        "hash": "5754484373370473137"
+      },
+      {
+        "file": "www/svg/podium-outline.svg",
+        "hash": "10267839047108973605"
+      },
+      {
+        "file": "www/svg/podium-sharp.svg",
+        "hash": "10277664308888027399"
+      },
+      {
+        "file": "www/svg/podium.svg",
+        "hash": "9428037092437389803"
+      },
+      {
+        "file": "www/svg/power-outline.svg",
+        "hash": "13193603158522573242"
+      },
+      {
+        "file": "www/svg/power-sharp.svg",
+        "hash": "3181023950229748694"
+      },
+      {
+        "file": "www/svg/power.svg",
+        "hash": "1945869323428284532"
+      },
+      {
+        "file": "www/svg/pricetag-outline.svg",
+        "hash": "3395347911309510588"
+      },
+      {
+        "file": "www/svg/pricetag-sharp.svg",
+        "hash": "17169735983332401371"
+      },
+      {
+        "file": "www/svg/pricetag.svg",
+        "hash": "18148532633665515620"
+      },
+      {
+        "file": "www/svg/pricetags-outline.svg",
+        "hash": "13960233839241685220"
+      },
+      {
+        "file": "www/svg/pricetags-sharp.svg",
+        "hash": "11437409735470053577"
+      },
+      {
+        "file": "www/svg/pricetags.svg",
+        "hash": "6732869635364255478"
+      },
+      {
+        "file": "www/svg/print-outline.svg",
+        "hash": "7164794078788470534"
+      },
+      {
+        "file": "www/svg/print-sharp.svg",
+        "hash": "5493345309324185032"
+      },
+      {
+        "file": "www/svg/print.svg",
+        "hash": "14646353103686184717"
+      },
+      {
+        "file": "www/svg/prism-outline.svg",
+        "hash": "8722938968409020753"
+      },
+      {
+        "file": "www/svg/prism-sharp.svg",
+        "hash": "5910825186209651720"
+      },
+      {
+        "file": "www/svg/prism.svg",
+        "hash": "17882631046830262720"
+      },
+      {
+        "file": "www/svg/pulse-outline.svg",
+        "hash": "7264203779784299589"
+      },
+      {
+        "file": "www/svg/pulse-sharp.svg",
+        "hash": "18121214099156764311"
+      },
+      {
+        "file": "www/svg/pulse.svg",
+        "hash": "30143445840988310"
+      },
+      {
+        "file": "www/svg/push-outline.svg",
+        "hash": "10179955882234685994"
+      },
+      {
+        "file": "www/svg/push-sharp.svg",
+        "hash": "13242143472806004457"
+      },
+      {
+        "file": "www/svg/push.svg",
+        "hash": "10588269915160585533"
+      },
+      {
+        "file": "www/svg/qr-code-outline.svg",
+        "hash": "13639868173557642803"
+      },
+      {
+        "file": "www/svg/qr-code-sharp.svg",
+        "hash": "4573670087433702644"
+      },
+      {
+        "file": "www/svg/qr-code.svg",
+        "hash": "9203429711567527742"
+      },
+      {
+        "file": "www/svg/radio-button-off-outline.svg",
+        "hash": "2967521496663142849"
+      },
+      {
+        "file": "www/svg/radio-button-off-sharp.svg",
+        "hash": "2967521496663142849"
+      },
+      {
+        "file": "www/svg/radio-button-off.svg",
+        "hash": "2967521496663142849"
+      },
+      {
+        "file": "www/svg/radio-button-on-outline.svg",
+        "hash": "6643665416477813197"
+      },
+      {
+        "file": "www/svg/radio-button-on-sharp.svg",
+        "hash": "6643665416477813197"
+      },
+      {
+        "file": "www/svg/radio-button-on.svg",
+        "hash": "6643665416477813197"
+      },
+      {
+        "file": "www/svg/radio-outline.svg",
+        "hash": "12790120539798316350"
+      },
+      {
+        "file": "www/svg/radio-sharp.svg",
+        "hash": "5856401112498376310"
+      },
+      {
+        "file": "www/svg/radio.svg",
+        "hash": "15171935896781861060"
+      },
+      {
+        "file": "www/svg/rainy-outline.svg",
+        "hash": "7151355227900973354"
+      },
+      {
+        "file": "www/svg/rainy-sharp.svg",
+        "hash": "9451706871792269750"
+      },
+      {
+        "file": "www/svg/rainy.svg",
+        "hash": "2547046173011079721"
+      },
+      {
+        "file": "www/svg/reader-outline.svg",
+        "hash": "15248255489306447163"
+      },
+      {
+        "file": "www/svg/reader-sharp.svg",
+        "hash": "5352863064637262944"
+      },
+      {
+        "file": "www/svg/reader.svg",
+        "hash": "9937045784840450790"
+      },
+      {
+        "file": "www/svg/receipt-outline.svg",
+        "hash": "18222861626957334922"
+      },
+      {
+        "file": "www/svg/receipt-sharp.svg",
+        "hash": "695904210459233467"
+      },
+      {
+        "file": "www/svg/receipt.svg",
+        "hash": "3043536717291040932"
+      },
+      {
+        "file": "www/svg/recording-outline.svg",
+        "hash": "13503016343517905231"
+      },
+      {
+        "file": "www/svg/recording-sharp.svg",
+        "hash": "11967660688982473958"
+      },
+      {
+        "file": "www/svg/recording.svg",
+        "hash": "3741751144327247259"
+      },
+      {
+        "file": "www/svg/refresh-circle-outline.svg",
+        "hash": "15051148204545646257"
+      },
+      {
+        "file": "www/svg/refresh-circle-sharp.svg",
+        "hash": "11385903999809141211"
+      },
+      {
+        "file": "www/svg/refresh-circle.svg",
+        "hash": "1010383567593592869"
+      },
+      {
+        "file": "www/svg/refresh-outline.svg",
+        "hash": "6955672055224058077"
+      },
+      {
+        "file": "www/svg/refresh-sharp.svg",
+        "hash": "2016998604850923764"
+      },
+      {
+        "file": "www/svg/refresh.svg",
+        "hash": "6955672055224058077"
+      },
+      {
+        "file": "www/svg/reload-circle-outline.svg",
+        "hash": "16534288829645841752"
+      },
+      {
+        "file": "www/svg/reload-circle-sharp.svg",
+        "hash": "14963709457457760289"
+      },
+      {
+        "file": "www/svg/reload-circle.svg",
+        "hash": "13945047181920389727"
+      },
+      {
+        "file": "www/svg/reload-outline.svg",
+        "hash": "15535920569593229866"
+      },
+      {
+        "file": "www/svg/reload-sharp.svg",
+        "hash": "13844991682063275476"
+      },
+      {
+        "file": "www/svg/reload.svg",
+        "hash": "15535920569593229866"
+      },
+      {
+        "file": "www/svg/remove-circle-outline.svg",
+        "hash": "589099395382960752"
+      },
+      {
+        "file": "www/svg/remove-circle-sharp.svg",
+        "hash": "11083837504819777027"
+      },
+      {
+        "file": "www/svg/remove-circle.svg",
+        "hash": "12527815019345780556"
+      },
+      {
+        "file": "www/svg/remove-outline.svg",
+        "hash": "14935602816387175939"
+      },
+      {
+        "file": "www/svg/remove-sharp.svg",
+        "hash": "4145325768124679976"
+      },
+      {
+        "file": "www/svg/remove.svg",
+        "hash": "14935602816387175939"
+      },
+      {
+        "file": "www/svg/reorder-four-outline.svg",
+        "hash": "5430536776588326548"
+      },
+      {
+        "file": "www/svg/reorder-four-sharp.svg",
+        "hash": "16887337700615564771"
+      },
+      {
+        "file": "www/svg/reorder-four.svg",
+        "hash": "12861327238045249072"
+      },
+      {
+        "file": "www/svg/reorder-three-outline.svg",
+        "hash": "10602493990754605003"
+      },
+      {
+        "file": "www/svg/reorder-three-sharp.svg",
+        "hash": "7585177866376187640"
+      },
+      {
+        "file": "www/svg/reorder-three.svg",
+        "hash": "16846340709612133133"
+      },
+      {
+        "file": "www/svg/reorder-two-outline.svg",
+        "hash": "14007520953992214335"
+      },
+      {
+        "file": "www/svg/reorder-two-sharp.svg",
+        "hash": "13974599232483170030"
+      },
+      {
+        "file": "www/svg/reorder-two.svg",
+        "hash": "13503747254821645830"
+      },
+      {
+        "file": "www/svg/repeat-outline.svg",
+        "hash": "786815659907935487"
+      },
+      {
+        "file": "www/svg/repeat-sharp.svg",
+        "hash": "11180175409715930269"
+      },
+      {
+        "file": "www/svg/repeat.svg",
+        "hash": "786815659907935487"
+      },
+      {
+        "file": "www/svg/resize-outline.svg",
+        "hash": "12481248949467206756"
+      },
+      {
+        "file": "www/svg/resize-sharp.svg",
+        "hash": "6217111734873641452"
+      },
+      {
+        "file": "www/svg/resize.svg",
+        "hash": "12481248949467206756"
+      },
+      {
+        "file": "www/svg/restaurant-outline.svg",
+        "hash": "969700919889142821"
+      },
+      {
+        "file": "www/svg/restaurant-sharp.svg",
+        "hash": "7350761177874435873"
+      },
+      {
+        "file": "www/svg/restaurant.svg",
+        "hash": "12042208035832404931"
+      },
+      {
+        "file": "www/svg/return-down-back-outline.svg",
+        "hash": "12764142527293198515"
+      },
+      {
+        "file": "www/svg/return-down-back-sharp.svg",
+        "hash": "15166848169123166832"
+      },
+      {
+        "file": "www/svg/return-down-back.svg",
+        "hash": "12764142527293198515"
+      },
+      {
+        "file": "www/svg/return-down-forward-outline.svg",
+        "hash": "7904905255498290146"
+      },
+      {
+        "file": "www/svg/return-down-forward-sharp.svg",
+        "hash": "17324113066171482214"
+      },
+      {
+        "file": "www/svg/return-down-forward.svg",
+        "hash": "7904905255498290146"
+      },
+      {
+        "file": "www/svg/return-up-back-outline.svg",
+        "hash": "16344601723776241635"
+      },
+      {
+        "file": "www/svg/return-up-back-sharp.svg",
+        "hash": "18179904424148755558"
+      },
+      {
+        "file": "www/svg/return-up-back.svg",
+        "hash": "16344601723776241635"
+      },
+      {
+        "file": "www/svg/return-up-forward-outline.svg",
+        "hash": "15225845743744670882"
+      },
+      {
+        "file": "www/svg/return-up-forward-sharp.svg",
+        "hash": "6687608068347587445"
+      },
+      {
+        "file": "www/svg/return-up-forward.svg",
+        "hash": "15225845743744670882"
+      },
+      {
+        "file": "www/svg/ribbon-outline.svg",
+        "hash": "17512349914920892986"
+      },
+      {
+        "file": "www/svg/ribbon-sharp.svg",
+        "hash": "13908425581448214319"
+      },
+      {
+        "file": "www/svg/ribbon.svg",
+        "hash": "10064967649140764169"
+      },
+      {
+        "file": "www/svg/rocket-outline.svg",
+        "hash": "8967648552158036923"
+      },
+      {
+        "file": "www/svg/rocket-sharp.svg",
+        "hash": "5913370004385768437"
+      },
+      {
+        "file": "www/svg/rocket.svg",
+        "hash": "2070915073545085801"
+      },
+      {
+        "file": "www/svg/rose-outline.svg",
+        "hash": "16154118956040989220"
+      },
+      {
+        "file": "www/svg/rose-sharp.svg",
+        "hash": "3134597502395592081"
+      },
+      {
+        "file": "www/svg/rose.svg",
+        "hash": "10634177361430044090"
+      },
+      {
+        "file": "www/svg/sad-outline.svg",
+        "hash": "16871398709251152528"
+      },
+      {
+        "file": "www/svg/sad-sharp.svg",
+        "hash": "530884229438971388"
+      },
+      {
+        "file": "www/svg/sad.svg",
+        "hash": "12358951800591643587"
+      },
+      {
+        "file": "www/svg/save-outline.svg",
+        "hash": "3651531626699179588"
+      },
+      {
+        "file": "www/svg/save-sharp.svg",
+        "hash": "13191625847083460230"
+      },
+      {
+        "file": "www/svg/save.svg",
+        "hash": "5104114357504862195"
+      },
+      {
+        "file": "www/svg/scale-outline.svg",
+        "hash": "12045806556761742937"
+      },
+      {
+        "file": "www/svg/scale-sharp.svg",
+        "hash": "13660221194700663850"
+      },
+      {
+        "file": "www/svg/scale.svg",
+        "hash": "7618903970325844861"
+      },
+      {
+        "file": "www/svg/scan-circle-outline.svg",
+        "hash": "14482570550173881180"
+      },
+      {
+        "file": "www/svg/scan-circle-sharp.svg",
+        "hash": "6627377508079385091"
+      },
+      {
+        "file": "www/svg/scan-circle.svg",
+        "hash": "9012492477331070704"
+      },
+      {
+        "file": "www/svg/scan-outline.svg",
+        "hash": "14691097450714719969"
+      },
+      {
+        "file": "www/svg/scan-sharp.svg",
+        "hash": "16894521399568115955"
+      },
+      {
+        "file": "www/svg/scan.svg",
+        "hash": "8290842792972646623"
+      },
+      {
+        "file": "www/svg/school-outline.svg",
+        "hash": "7260261921644303665"
+      },
+      {
+        "file": "www/svg/school-sharp.svg",
+        "hash": "17833597604191975468"
+      },
+      {
+        "file": "www/svg/school.svg",
+        "hash": "15639657450931273534"
+      },
+      {
+        "file": "www/svg/search-circle-outline.svg",
+        "hash": "3257373408080119623"
+      },
+      {
+        "file": "www/svg/search-circle-sharp.svg",
+        "hash": "5210482482368734271"
+      },
+      {
+        "file": "www/svg/search-circle.svg",
+        "hash": "18152391990545401198"
+      },
+      {
+        "file": "www/svg/search-outline.svg",
+        "hash": "1515798048207972706"
+      },
+      {
+        "file": "www/svg/search-sharp.svg",
+        "hash": "9761291784826347871"
+      },
+      {
+        "file": "www/svg/search.svg",
+        "hash": "18163413295258885264"
+      },
+      {
+        "file": "www/svg/send-outline.svg",
+        "hash": "4071503833980938609"
+      },
+      {
+        "file": "www/svg/send-sharp.svg",
+        "hash": "14793660507363217990"
+      },
+      {
+        "file": "www/svg/send.svg",
+        "hash": "13253320520503053340"
+      },
+      {
+        "file": "www/svg/server-outline.svg",
+        "hash": "13546381311448824002"
+      },
+      {
+        "file": "www/svg/server-sharp.svg",
+        "hash": "8328934955485200581"
+      },
+      {
+        "file": "www/svg/server.svg",
+        "hash": "5617949387331441566"
+      },
+      {
+        "file": "www/svg/settings-outline.svg",
+        "hash": "474851311069749389"
+      },
+      {
+        "file": "www/svg/settings-sharp.svg",
+        "hash": "7637048395036241549"
+      },
+      {
+        "file": "www/svg/settings.svg",
+        "hash": "12870491864183583300"
+      },
+      {
+        "file": "www/svg/shapes-outline.svg",
+        "hash": "2034851796072567656"
+      },
+      {
+        "file": "www/svg/shapes-sharp.svg",
+        "hash": "16070507084351213936"
+      },
+      {
+        "file": "www/svg/shapes.svg",
+        "hash": "14877154039114608437"
+      },
+      {
+        "file": "www/svg/share-outline.svg",
+        "hash": "12037947833283245290"
+      },
+      {
+        "file": "www/svg/share-sharp.svg",
+        "hash": "9006266151478292874"
+      },
+      {
+        "file": "www/svg/share-social-outline.svg",
+        "hash": "6916146786911914103"
+      },
+      {
+        "file": "www/svg/share-social-sharp.svg",
+        "hash": "15791413325119943643"
+      },
+      {
+        "file": "www/svg/share-social.svg",
+        "hash": "11152394995954101829"
+      },
+      {
+        "file": "www/svg/share.svg",
+        "hash": "17200815813537668552"
+      },
+      {
+        "file": "www/svg/shield-checkmark-outline.svg",
+        "hash": "14642174458833037344"
+      },
+      {
+        "file": "www/svg/shield-checkmark-sharp.svg",
+        "hash": "7542772829619033996"
+      },
+      {
+        "file": "www/svg/shield-checkmark.svg",
+        "hash": "5200909030812633219"
+      },
+      {
+        "file": "www/svg/shield-half-outline.svg",
+        "hash": "11263080430631961822"
+      },
+      {
+        "file": "www/svg/shield-half-sharp.svg",
+        "hash": "13953943697358649457"
+      },
+      {
+        "file": "www/svg/shield-half.svg",
+        "hash": "14562905943907789849"
+      },
+      {
+        "file": "www/svg/shield-outline.svg",
+        "hash": "18219307343447063974"
+      },
+      {
+        "file": "www/svg/shield-sharp.svg",
+        "hash": "15372418509477961752"
+      },
+      {
+        "file": "www/svg/shield.svg",
+        "hash": "17358064972874581964"
+      },
+      {
+        "file": "www/svg/shirt-outline.svg",
+        "hash": "4497324195063637723"
+      },
+      {
+        "file": "www/svg/shirt-sharp.svg",
+        "hash": "13094865128446691474"
+      },
+      {
+        "file": "www/svg/shirt.svg",
+        "hash": "13320901313972999401"
+      },
+      {
+        "file": "www/svg/shuffle-outline.svg",
+        "hash": "6495542227508314655"
+      },
+      {
+        "file": "www/svg/shuffle-sharp.svg",
+        "hash": "897601650305738550"
+      },
+      {
+        "file": "www/svg/shuffle.svg",
+        "hash": "6495542227508314655"
+      },
+      {
+        "file": "www/svg/skull-outline.svg",
+        "hash": "8697816942085106123"
+      },
+      {
+        "file": "www/svg/skull-sharp.svg",
+        "hash": "5114013108796088010"
+      },
+      {
+        "file": "www/svg/skull.svg",
+        "hash": "2425453050746330657"
+      },
+      {
+        "file": "www/svg/snow-outline.svg",
+        "hash": "7246492659915347912"
+      },
+      {
+        "file": "www/svg/snow-sharp.svg",
+        "hash": "12441283221412931519"
+      },
+      {
+        "file": "www/svg/snow.svg",
+        "hash": "14892183353806907471"
+      },
+      {
+        "file": "www/svg/sparkles-outline.svg",
+        "hash": "6499419177242522900"
+      },
+      {
+        "file": "www/svg/sparkles-sharp.svg",
+        "hash": "11352132690396072126"
+      },
+      {
+        "file": "www/svg/sparkles.svg",
+        "hash": "1727374965480750611"
+      },
+      {
+        "file": "www/svg/speedometer-outline.svg",
+        "hash": "8200309796286037349"
+      },
+      {
+        "file": "www/svg/speedometer-sharp.svg",
+        "hash": "13390085574367424209"
+      },
+      {
+        "file": "www/svg/speedometer.svg",
+        "hash": "14462255141720769425"
+      },
+      {
+        "file": "www/svg/square-outline.svg",
+        "hash": "1254164078763658355"
+      },
+      {
+        "file": "www/svg/square-sharp.svg",
+        "hash": "8768537827670534164"
+      },
+      {
+        "file": "www/svg/square.svg",
+        "hash": "8455769725917229976"
+      },
+      {
+        "file": "www/svg/star-half-outline.svg",
+        "hash": "13691860991127624423"
+      },
+      {
+        "file": "www/svg/star-half-sharp.svg",
+        "hash": "1937448311532823683"
+      },
+      {
+        "file": "www/svg/star-half.svg",
+        "hash": "13691860991127624423"
+      },
+      {
+        "file": "www/svg/star-outline.svg",
+        "hash": "18383659136314467184"
+      },
+      {
+        "file": "www/svg/star-sharp.svg",
+        "hash": "9888812378192187563"
+      },
+      {
+        "file": "www/svg/star.svg",
+        "hash": "17810432441103391483"
+      },
+      {
+        "file": "www/svg/stats-chart-outline.svg",
+        "hash": "10489139338830568473"
+      },
+      {
+        "file": "www/svg/stats-chart-sharp.svg",
+        "hash": "11816236211492030033"
+      },
+      {
+        "file": "www/svg/stats-chart.svg",
+        "hash": "12137684139094937658"
+      },
+      {
+        "file": "www/svg/stop-circle-outline.svg",
+        "hash": "12383797201239447626"
+      },
+      {
+        "file": "www/svg/stop-circle-sharp.svg",
+        "hash": "14947474677670470865"
+      },
+      {
+        "file": "www/svg/stop-circle.svg",
+        "hash": "12487183119972997934"
+      },
+      {
+        "file": "www/svg/stop-outline.svg",
+        "hash": "10231915277103709742"
+      },
+      {
+        "file": "www/svg/stop-sharp.svg",
+        "hash": "4264824283783851130"
+      },
+      {
+        "file": "www/svg/stop.svg",
+        "hash": "5753650642496294610"
+      },
+      {
+        "file": "www/svg/stopwatch-outline.svg",
+        "hash": "1780877748751443727"
+      },
+      {
+        "file": "www/svg/stopwatch-sharp.svg",
+        "hash": "14187655169190385290"
+      },
+      {
+        "file": "www/svg/stopwatch.svg",
+        "hash": "4559512122596090682"
+      },
+      {
+        "file": "www/svg/storefront-outline.svg",
+        "hash": "18189117002717557365"
+      },
+      {
+        "file": "www/svg/storefront-sharp.svg",
+        "hash": "9083501953091284740"
+      },
+      {
+        "file": "www/svg/storefront.svg",
+        "hash": "8878373893654233406"
+      },
+      {
+        "file": "www/svg/subway-outline.svg",
+        "hash": "3836039751421666644"
+      },
+      {
+        "file": "www/svg/subway-sharp.svg",
+        "hash": "2287988491525376077"
+      },
+      {
+        "file": "www/svg/subway.svg",
+        "hash": "3702708674476995916"
+      },
+      {
+        "file": "www/svg/sunny-outline.svg",
+        "hash": "9907151395851692179"
+      },
+      {
+        "file": "www/svg/sunny-sharp.svg",
+        "hash": "9174779320095068099"
+      },
+      {
+        "file": "www/svg/sunny.svg",
+        "hash": "6165028026209400954"
+      },
+      {
+        "file": "www/svg/swap-horizontal-outline.svg",
+        "hash": "8868971900912585828"
+      },
+      {
+        "file": "www/svg/swap-horizontal-sharp.svg",
+        "hash": "11107379228735736288"
+      },
+      {
+        "file": "www/svg/swap-horizontal.svg",
+        "hash": "8868971900912585828"
+      },
+      {
+        "file": "www/svg/swap-vertical-outline.svg",
+        "hash": "16221541613218130826"
+      },
+      {
+        "file": "www/svg/swap-vertical-sharp.svg",
+        "hash": "5853006148143904088"
+      },
+      {
+        "file": "www/svg/swap-vertical.svg",
+        "hash": "16221541613218130826"
+      },
+      {
+        "file": "www/svg/sync-circle-outline.svg",
+        "hash": "17937021651972156355"
+      },
+      {
+        "file": "www/svg/sync-circle-sharp.svg",
+        "hash": "10299380576405006023"
+      },
+      {
+        "file": "www/svg/sync-circle.svg",
+        "hash": "14993946949388240787"
+      },
+      {
+        "file": "www/svg/sync-outline.svg",
+        "hash": "4876037277746673229"
+      },
+      {
+        "file": "www/svg/sync-sharp.svg",
+        "hash": "3279115073425985248"
+      },
+      {
+        "file": "www/svg/sync.svg",
+        "hash": "4876037277746673229"
+      },
+      {
+        "file": "www/svg/tablet-landscape-outline.svg",
+        "hash": "847428480503275097"
+      },
+      {
+        "file": "www/svg/tablet-landscape-sharp.svg",
+        "hash": "16266995515758086624"
+      },
+      {
+        "file": "www/svg/tablet-landscape.svg",
+        "hash": "12379197121417717311"
+      },
+      {
+        "file": "www/svg/tablet-portrait-outline.svg",
+        "hash": "10105457766483976619"
+      },
+      {
+        "file": "www/svg/tablet-portrait-sharp.svg",
+        "hash": "10280118888380704179"
+      },
+      {
+        "file": "www/svg/tablet-portrait.svg",
+        "hash": "570749695745228719"
+      },
+      {
+        "file": "www/svg/telescope-outline.svg",
+        "hash": "7621819488336581779"
+      },
+      {
+        "file": "www/svg/telescope-sharp.svg",
+        "hash": "7805200547738612209"
+      },
+      {
+        "file": "www/svg/telescope.svg",
+        "hash": "4673935632601856474"
+      },
+      {
+        "file": "www/svg/tennisball-outline.svg",
+        "hash": "13352242807849689171"
+      },
+      {
+        "file": "www/svg/tennisball-sharp.svg",
+        "hash": "1312309855314055805"
+      },
+      {
+        "file": "www/svg/tennisball.svg",
+        "hash": "12285501726476703416"
+      },
+      {
+        "file": "www/svg/terminal-outline.svg",
+        "hash": "15772415061851095509"
+      },
+      {
+        "file": "www/svg/terminal-sharp.svg",
+        "hash": "17089355723112434630"
+      },
+      {
+        "file": "www/svg/terminal.svg",
+        "hash": "12115943463148885495"
+      },
+      {
+        "file": "www/svg/text-outline.svg",
+        "hash": "10616405563125321123"
+      },
+      {
+        "file": "www/svg/text-sharp.svg",
+        "hash": "8644017933220484547"
+      },
+      {
+        "file": "www/svg/text.svg",
+        "hash": "3000449742076653794"
+      },
+      {
+        "file": "www/svg/thermometer-outline.svg",
+        "hash": "10572378329514976351"
+      },
+      {
+        "file": "www/svg/thermometer-sharp.svg",
+        "hash": "5612473648127169576"
+      },
+      {
+        "file": "www/svg/thermometer.svg",
+        "hash": "7403626962564083460"
+      },
+      {
+        "file": "www/svg/thumbs-down-outline.svg",
+        "hash": "12687759548890462873"
+      },
+      {
+        "file": "www/svg/thumbs-down-sharp.svg",
+        "hash": "12309399789078294678"
+      },
+      {
+        "file": "www/svg/thumbs-down.svg",
+        "hash": "4438688065786075954"
+      },
+      {
+        "file": "www/svg/thumbs-up-outline.svg",
+        "hash": "4979389238039658572"
+      },
+      {
+        "file": "www/svg/thumbs-up-sharp.svg",
+        "hash": "9842049060260515712"
+      },
+      {
+        "file": "www/svg/thumbs-up.svg",
+        "hash": "6729747369294084889"
+      },
+      {
+        "file": "www/svg/thunderstorm-outline.svg",
+        "hash": "13418120252347244353"
+      },
+      {
+        "file": "www/svg/thunderstorm-sharp.svg",
+        "hash": "1880258826820795500"
+      },
+      {
+        "file": "www/svg/thunderstorm.svg",
+        "hash": "15976812056241422929"
+      },
+      {
+        "file": "www/svg/ticket-outline.svg",
+        "hash": "8444662051681269487"
+      },
+      {
+        "file": "www/svg/ticket-sharp.svg",
+        "hash": "16590652985442534437"
+      },
+      {
+        "file": "www/svg/ticket.svg",
+        "hash": "4495886719664527190"
+      },
+      {
+        "file": "www/svg/time-outline.svg",
+        "hash": "13577229346961233656"
+      },
+      {
+        "file": "www/svg/time-sharp.svg",
+        "hash": "5532628027705858089"
+      },
+      {
+        "file": "www/svg/time.svg",
+        "hash": "12199204593160844663"
+      },
+      {
+        "file": "www/svg/timer-outline.svg",
+        "hash": "687543861785183905"
+      },
+      {
+        "file": "www/svg/timer-sharp.svg",
+        "hash": "10380454762793555606"
+      },
+      {
+        "file": "www/svg/timer.svg",
+        "hash": "1928115356794169146"
+      },
+      {
+        "file": "www/svg/today-outline.svg",
+        "hash": "15589884889491894244"
+      },
+      {
+        "file": "www/svg/today-sharp.svg",
+        "hash": "16048634043327709026"
+      },
+      {
+        "file": "www/svg/today.svg",
+        "hash": "16360285778323747078"
+      },
+      {
+        "file": "www/svg/toggle-outline.svg",
+        "hash": "12036372449289252829"
+      },
+      {
+        "file": "www/svg/toggle-sharp.svg",
+        "hash": "4337779947219117306"
+      },
+      {
+        "file": "www/svg/toggle.svg",
+        "hash": "5402195234799316776"
+      },
+      {
+        "file": "www/svg/trail-sign-outline.svg",
+        "hash": "7094561624144874710"
+      },
+      {
+        "file": "www/svg/trail-sign-sharp.svg",
+        "hash": "15121948975478325916"
+      },
+      {
+        "file": "www/svg/trail-sign.svg",
+        "hash": "15359181311170927901"
+      },
+      {
+        "file": "www/svg/train-outline.svg",
+        "hash": "10716075753922411423"
+      },
+      {
+        "file": "www/svg/train-sharp.svg",
+        "hash": "1614067342406479746"
+      },
+      {
+        "file": "www/svg/train.svg",
+        "hash": "9267998405948624265"
+      },
+      {
+        "file": "www/svg/transgender-outline.svg",
+        "hash": "8097095624822713864"
+      },
+      {
+        "file": "www/svg/transgender-sharp.svg",
+        "hash": "15634498251374391625"
+      },
+      {
+        "file": "www/svg/transgender.svg",
+        "hash": "13725553887668483494"
+      },
+      {
+        "file": "www/svg/trash-bin-outline.svg",
+        "hash": "11724929478057074009"
+      },
+      {
+        "file": "www/svg/trash-bin-sharp.svg",
+        "hash": "17161759456274113704"
+      },
+      {
+        "file": "www/svg/trash-bin.svg",
+        "hash": "13066418582197796403"
+      },
+      {
+        "file": "www/svg/trash-outline.svg",
+        "hash": "8875285718099944639"
+      },
+      {
+        "file": "www/svg/trash-sharp.svg",
+        "hash": "13481590866138564142"
+      },
+      {
+        "file": "www/svg/trash.svg",
+        "hash": "16012619155745165588"
+      },
+      {
+        "file": "www/svg/trending-down-outline.svg",
+        "hash": "13989714373414668036"
+      },
+      {
+        "file": "www/svg/trending-down-sharp.svg",
+        "hash": "5733236883266176669"
+      },
+      {
+        "file": "www/svg/trending-down.svg",
+        "hash": "13989714373414668036"
+      },
+      {
+        "file": "www/svg/trending-up-outline.svg",
+        "hash": "5420102670368435274"
+      },
+      {
+        "file": "www/svg/trending-up-sharp.svg",
+        "hash": "4101275517059893193"
+      },
+      {
+        "file": "www/svg/trending-up.svg",
+        "hash": "5420102670368435274"
+      },
+      {
+        "file": "www/svg/triangle-outline.svg",
+        "hash": "8556252221324199677"
+      },
+      {
+        "file": "www/svg/triangle-sharp.svg",
+        "hash": "18296543974965678484"
+      },
+      {
+        "file": "www/svg/triangle.svg",
+        "hash": "15194704997437480498"
+      },
+      {
+        "file": "www/svg/trophy-outline.svg",
+        "hash": "3152615431200271926"
+      },
+      {
+        "file": "www/svg/trophy-sharp.svg",
+        "hash": "8286078884894276400"
+      },
+      {
+        "file": "www/svg/trophy.svg",
+        "hash": "18196718302245054517"
+      },
+      {
+        "file": "www/svg/tv-outline.svg",
+        "hash": "6550298758501926740"
+      },
+      {
+        "file": "www/svg/tv-sharp.svg",
+        "hash": "8370310280221075614"
+      },
+      {
+        "file": "www/svg/tv.svg",
+        "hash": "5792110053886890136"
+      },
+      {
+        "file": "www/svg/umbrella-outline.svg",
+        "hash": "536487734557281361"
+      },
+      {
+        "file": "www/svg/umbrella-sharp.svg",
+        "hash": "16273490524196808566"
+      },
+      {
+        "file": "www/svg/umbrella.svg",
+        "hash": "5683855152966007228"
+      },
+      {
+        "file": "www/svg/unlink-outline.svg",
+        "hash": "11249876964790716867"
+      },
+      {
+        "file": "www/svg/unlink-sharp.svg",
+        "hash": "8228617124619770313"
+      },
+      {
+        "file": "www/svg/unlink.svg",
+        "hash": "11577011129580214736"
+      },
+      {
+        "file": "www/svg/videocam-off-outline.svg",
+        "hash": "3765097078868612150"
+      },
+      {
+        "file": "www/svg/videocam-off-sharp.svg",
+        "hash": "6994055661133599861"
+      },
+      {
+        "file": "www/svg/videocam-off.svg",
+        "hash": "10197293120079188175"
+      },
+      {
+        "file": "www/svg/videocam-outline.svg",
+        "hash": "16800619576805980611"
+      },
+      {
+        "file": "www/svg/videocam-sharp.svg",
+        "hash": "5858515405399353660"
+      },
+      {
+        "file": "www/svg/videocam.svg",
+        "hash": "4601999741189618193"
+      },
+      {
+        "file": "www/svg/volume-high-outline.svg",
+        "hash": "7056156453696102707"
+      },
+      {
+        "file": "www/svg/volume-high-sharp.svg",
+        "hash": "3366634680020847246"
+      },
+      {
+        "file": "www/svg/volume-high.svg",
+        "hash": "2234051757254388796"
+      },
+      {
+        "file": "www/svg/volume-low-outline.svg",
+        "hash": "3052146204343939229"
+      },
+      {
+        "file": "www/svg/volume-low-sharp.svg",
+        "hash": "10142324395536610348"
+      },
+      {
+        "file": "www/svg/volume-low.svg",
+        "hash": "3191534201297157742"
+      },
+      {
+        "file": "www/svg/volume-medium-outline.svg",
+        "hash": "5804301670141224218"
+      },
+      {
+        "file": "www/svg/volume-medium-sharp.svg",
+        "hash": "4650878237957632937"
+      },
+      {
+        "file": "www/svg/volume-medium.svg",
+        "hash": "5596711472948456833"
+      },
+      {
+        "file": "www/svg/volume-mute-outline.svg",
+        "hash": "7990806536156147725"
+      },
+      {
+        "file": "www/svg/volume-mute-sharp.svg",
+        "hash": "14035764289473365959"
+      },
+      {
+        "file": "www/svg/volume-mute.svg",
+        "hash": "2356611936276180453"
+      },
+      {
+        "file": "www/svg/volume-off-outline.svg",
+        "hash": "2045735695339270157"
+      },
+      {
+        "file": "www/svg/volume-off-sharp.svg",
+        "hash": "5888858993218623145"
+      },
+      {
+        "file": "www/svg/volume-off.svg",
+        "hash": "16279567055585361825"
+      },
+      {
+        "file": "www/svg/walk-outline.svg",
+        "hash": "15647183488578126921"
+      },
+      {
+        "file": "www/svg/walk-sharp.svg",
+        "hash": "11529828298626184111"
+      },
+      {
+        "file": "www/svg/walk.svg",
+        "hash": "4312620147658490630"
+      },
+      {
+        "file": "www/svg/wallet-outline.svg",
+        "hash": "15818992360775129501"
+      },
+      {
+        "file": "www/svg/wallet-sharp.svg",
+        "hash": "17352643478174083673"
+      },
+      {
+        "file": "www/svg/wallet.svg",
+        "hash": "5278507196099668734"
+      },
+      {
+        "file": "www/svg/warning-outline.svg",
+        "hash": "14858684170112386853"
+      },
+      {
+        "file": "www/svg/warning-sharp.svg",
+        "hash": "123955480151263516"
+      },
+      {
+        "file": "www/svg/warning.svg",
+        "hash": "950781515995120171"
+      },
+      {
+        "file": "www/svg/watch-outline.svg",
+        "hash": "5083859967829089959"
+      },
+      {
+        "file": "www/svg/watch-sharp.svg",
+        "hash": "17579103322292984516"
+      },
+      {
+        "file": "www/svg/watch.svg",
+        "hash": "18176583260517728592"
+      },
+      {
+        "file": "www/svg/water-outline.svg",
+        "hash": "2285589847854743482"
+      },
+      {
+        "file": "www/svg/water-sharp.svg",
+        "hash": "17041449540475739047"
+      },
+      {
+        "file": "www/svg/water.svg",
+        "hash": "3354377284158352711"
+      },
+      {
+        "file": "www/svg/wifi-outline.svg",
+        "hash": "11917576932868516375"
+      },
+      {
+        "file": "www/svg/wifi-sharp.svg",
+        "hash": "3748782970020296729"
+      },
+      {
+        "file": "www/svg/wifi.svg",
+        "hash": "5294505875617576174"
+      },
+      {
+        "file": "www/svg/wine-outline.svg",
+        "hash": "8391393396694079807"
+      },
+      {
+        "file": "www/svg/wine-sharp.svg",
+        "hash": "9591994535314995716"
+      },
+      {
+        "file": "www/svg/wine.svg",
+        "hash": "154903983730996389"
+      },
+      {
+        "file": "www/svg/woman-outline.svg",
+        "hash": "12476216562193024402"
+      },
+      {
+        "file": "www/svg/woman-sharp.svg",
+        "hash": "15758546353662206036"
+      },
+      {
+        "file": "www/svg/woman.svg",
+        "hash": "16266205210642333200"
+      }
+    ]
+  }
+}
