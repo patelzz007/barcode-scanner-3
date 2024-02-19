@@ -5,6 +5,7 @@ import {
   ScannerQRCodeResult,
   NgxScannerQrcodeService,
   NgxScannerQrcodeComponent,
+  ScannerQRCodeDevice,
   ScannerQRCodeSelectedFiles,
 } from 'ngx-scanner-qrcode';
 import { SafePipe } from '../../app/safe.pipe';
@@ -48,22 +49,29 @@ export class ScanQRPage implements AfterViewInit {
   }
 
   public close(): void {
+    this.handle(this.scanner, 'stop');
     this.modalCtrl.dismiss({
       result: this.QRValue,
     });
   }
 
-  public onEvent(e: ScannerQRCodeResult[], action?: any): void {
+  public onEvent(
+    e: ScannerQRCodeResult[],
+    action?: NgxScannerQrcodeComponent
+  ): void {
     // e && action && action.pause();
     console.log(e[0].value);
     this.QRValue = e[0].value;
-    if (this.QRValue && action) action.stop();
+    if (this.QRValue && action) this.handle(this.scanner, 'stop');
   }
 
-  public handle(action: any, fn: string): void {
+  public handle(
+    action: NgxScannerQrcodeComponent,
+    fn: keyof NgxScannerQrcodeComponent
+  ): void {
     console.log('action 1', action);
     console.log('fn', fn);
-    const playDeviceFacingBack = (devices: any[]) => {
+    const playDeviceFacingBack = (devices: ScannerQRCodeDevice[]) => {
       console.log(devices);
       // front camera or back camera check here!
       const device = devices.find((f) =>
@@ -75,11 +83,19 @@ export class ScanQRPage implements AfterViewInit {
     if (fn === 'start') {
       action[fn](playDeviceFacingBack)
         .pipe(untilDestroyed(this))
-        .subscribe((r: any) => console.log(fn, r), alert);
+        .subscribe({
+          next: (r: any) => console.log(fn, r),
+          error: (e: any) => console.log(fn, e),
+          complete: () => console.log(fn, 'complete'),
+        });
     } else {
       action[fn]()
         .pipe(untilDestroyed(this))
-        .subscribe((r: any) => console.log(fn, r), alert);
+        .subscribe({
+          next: (r: any) => console.log(fn, r),
+          error: (e: any) => console.log(fn, e),
+          complete: () => console.log(fn, 'complete'),
+        });
     }
   }
 }
